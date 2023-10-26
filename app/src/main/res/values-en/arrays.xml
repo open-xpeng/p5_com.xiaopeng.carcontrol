@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="hvac_circulation_vui_label">
+        <item>@string/hvac_circulation_inside</item>
+        <item>@string/hvac_circulation_outside</item>
+        <item>@string/hvac_circulation_auto</item>
+    </array>
+    <array name="hvac_seat_air_vui_labels">
+        <item>@string/hvac_seat_air_vui_label_3</item>
+        <item>@string/hvac_seat_air_vui_label_4</item>
+        <item>@string/hvac_seat_air_vui_label_5</item>
+    </array>
+    <array name="llu_state_array">
+        <item>@string/llu_dance_action_null1</item>
+        <item>@string/llu_dance_action_null2</item>
+        <item>@string/llu_dance_action_null3</item>
+        <item>@string/llu_dance_action_null4</item>
+        <item>@string/llu_dance_action_null5</item>
+        <item>@string/llu_dance_action_download</item>
+        <item>@string/llu_dance_action_resume_download</item>
+        <item>@string/llu_dance_action_pause_download</item>
+        <item>@string/llu_dance_action_re_download</item>
+        <item>@string/llu_dance_action_play</item>
+    </array>
+    <array name="seat_memory_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </array>
+</resources>

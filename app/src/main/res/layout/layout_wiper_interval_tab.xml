@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="wrap_content" android:layout_height="match_parent">
+    <com.xiaopeng.xui.widget.XTabLayout android:layout_gravity="bottom" android:id="@+id/auto_wiper_sensitivity_mode_tab" android:layout_width="802dp" android:layout_height="80dp" android:layout_marginTop="@dimen/setting_scroll_list_item_tab_margin_top" app:indicatorMaxHeight="2dp" app:indicatorShadowRadius="2dp" app:indicatorWidthPercent="100%" app:titles="@array/wiper_gear_array" app:vuiLabel="wiper_auto_title"/>
+</FrameLayout>

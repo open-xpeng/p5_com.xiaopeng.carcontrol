@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/x_dialog_custom_content_scroll" app:vuiAction="ScrollByY" style="?attr/dialog_content_scroll_style"/>

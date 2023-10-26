@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item>
+        <shape>
+            <corners android:radius="@dimen/x_btn_ghost_small_radius"/>
+            <solid android:color="@color/x_primary_neutral_color_selector"/>
+        </shape>
+    </item>
+    <item>
+        <drawable app:rippleRadius="@dimen/x_btn_ghost_small_radius" app:rippleSupportScale="true" class="com.xiaopeng.xui.drawable.ripple.XRippleDrawable"/>
+    </item>
+</layer-list>

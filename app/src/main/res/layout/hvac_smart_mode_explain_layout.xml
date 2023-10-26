@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="1200dp" android:layout_height="450dp">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.xiaopeng.xui.widget.XImageView android:id="@+id/img_rapid_cooling_explain" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/img_refrigeration" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+            <com.xiaopeng.xui.widget.XImageView android:id="@+id/img_deodorant_explain" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/img_deodorate" android:alpha="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+            <com.xiaopeng.xui.widget.XTextView android:textSize="@dimen/x_font_title_03_size" android:textColor="@color/x_theme_text_01" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:text="@string/hvac_smart_mode_explain" app:layout_constraintTop_toBottomOf="@+id/img_rapid_cooling_explain"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.xiaopeng.xui.widget.XImageView android:layout_gravity="end|center_vertical" android:id="@+id/x_list_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/x_ic_small_doubt_blue" android:layout_marginEnd="26dp"/>
+</FrameLayout>

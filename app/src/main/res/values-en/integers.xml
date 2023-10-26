@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="auto_power_off_visibility">0</integer>
+    <integer name="avas_settings_layout_visibility">2</integer>
+    <integer name="dialog_seat_vent_title_visibility">2</integer>
+    <integer name="drive_mode_visibility">0</integer>
+    <integer name="laboratory_near_unlock_visibility">2</integer>
+    <integer name="low_avas_visibility">2</integer>
+    <integer name="main_page_seat_drv_tip_maxLines">2</integer>
+    <integer name="manual_user_book_visibility">2</integer>
+    <integer name="meter_media_src_visibility">2</integer>
+    <integer name="nfc_key_visibility">0</integer>
+    <integer name="rescue_btn_visibility">2</integer>
+    <integer name="seat_lie_down_title_visibility">0</integer>
+    <integer name="x_pilot_card_des_visibility">2</integer>
+    <integer name="x_pilot_tab_des_visibility">2</integer>
+</resources>

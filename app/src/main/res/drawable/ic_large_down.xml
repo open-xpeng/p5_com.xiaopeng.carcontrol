@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="47dp" android:width="47dp" android:viewportWidth="47" android:viewportHeight="47">
+    <path android:fillColor="@color/seat_control_menu_bg" android:pathData="M23.5,23.5m0,22.68a22.68,22.68 0,1 1,0 -45.36a22.68,22.68 0,1 1,0 45.36" android:strokeColor="#00000000" android:strokeWidth="1" android:strokeAlpha="0.36" android:fillType="nonZero"/>
+    <path android:fillColor="@color/x_theme_text_01" android:pathData="M23.2127,26.3151L16.9075,20.2964C16.53,19.9361 15.9318,19.95 15.5714,20.3275C15.2111,20.705 15.225,21.3032 15.6025,21.6636L22.5325,28.2786C22.8863,28.6163 23.4392,28.6282 23.8073,28.3062L31.3673,21.6912C31.7601,21.3475 31.7999,20.7505 31.4562,20.3577C31.1125,19.9649 30.5155,19.9251 30.1227,20.2688L23.2127,26.3151Z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillType="nonZero"/>
+</vector>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="XCatalog.Item" parent="@style/XCatalogItemBase">
+    </style>
+    <style name="XToastLayoutStyle" parent="@style/XToastLayoutStyleBase">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:minWidth">@dimen/x_toast_min_width</item>
+    </style>
+    <style name="XToastTextStyle" parent="@style/XToastTextStyleBase">
+        <item name="android:maxWidth">@dimen/x_toast_width</item>
+    </style>
+</resources>

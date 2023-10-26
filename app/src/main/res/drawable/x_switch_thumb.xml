@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<drawable xmlns:app="http://schemas.android.com/apk/res-auto" app:switch_thumb_color="@color/x_switch_thumb_color_selector" app:switch_thumb_indicator_color="@color/x_switch_thumb_indicator_color_selector" class="com.xiaopeng.xui.drawable.XSwitchThumbDrawable"/>

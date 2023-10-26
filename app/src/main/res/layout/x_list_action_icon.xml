@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.xui.widget.XImageView android:id="@+id/x_list_action_icon" android:saveEnabled="false" android:layout_width="@dimen/x_list_icon_size" android:layout_height="@dimen/x_list_icon_size"/>
+</RelativeLayout>

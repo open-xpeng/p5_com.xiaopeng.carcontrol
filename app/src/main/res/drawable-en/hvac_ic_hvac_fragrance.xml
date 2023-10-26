@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="center" android:height="@dimen/hvac_top_img_ic_width" android:width="@dimen/hvac_top_img_ic_width" android:drawable="@drawable/ic_hvac_fragrance"/>
+    <item android:id="@android:id/background" android:height="@dimen/hvac_top_img_circle_ic_width" android:width="@dimen/hvac_top_img_circle_ic_width" android:drawable="@drawable/hvac_function_circle_bg"/>
+    <item android:drawable="@drawable/hvac_ripple_drawable"/>
+</layer-list>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.xui.widget.XTextView android:textSize="30sp" android:textColor="#2b3547" android:gravity="center_vertical" android:layout_gravity="center" android:id="@+id/txt_tip" android:layout_width="500dp" android:layout_height="40dp" android:layout_marginTop="8dp" android:text="@string/meditation_dialog_start_tip" android:lines="1"/>
+</com.xiaopeng.xui.widget.XFrameLayout>

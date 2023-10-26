@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" style="@style/XList.Multiple.Two">
+    <com.xiaopeng.xui.widget.XTextView android:id="@+id/x_list_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/x_list_multiple_padding_top" android:layout_marginEnd="@dimen/x_list_multiple_text_sub_margin" app:vuiMode="DISABLED" style="@style/XListText"/>
+    <com.xiaopeng.xui.widget.XTextView android:id="@+id/x_list_tv_sub" android:paddingTop="@dimen/x_list_multiple_text_sub_padding_top_for_two" android:layout_below="@+id/x_list_tv" app:vuiMode="DISABLED" style="@style/XListTextSub"/>
+    <ViewStub android:id="@+id/x_list_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/x_list_multiple_padding_top_reverse" android:layout_marginBottom="@dimen/x_list_multiple_padding_top_reverse" android:layout_alignTop="@+id/x_list_tv" android:layout_alignBottom="@+id/x_list_tv" android:layout_toEndOf="@+id/x_list_tv"/>
+    <ViewStub android:id="@+id/x_list_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+</merge>

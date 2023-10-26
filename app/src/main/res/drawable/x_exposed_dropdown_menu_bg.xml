@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="@dimen/x_exposed_dropdown_menu_height" android:width="@dimen/x_exposed_dropdown_menu_width"/>
+    <solid android:color="@color/x_primary_neutral_color_selector"/>
+    <corners android:radius="36dp"/>
+</shape>

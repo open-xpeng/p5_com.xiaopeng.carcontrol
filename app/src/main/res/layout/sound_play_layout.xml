@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:padding="30dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.xiaopeng.xui.widget.XTextView android:id="@+id/item_1" android:layout_width="0dp" android:layout_height="80dp" android:layout_margin="8dp" android:text="@string/item_1" android:layout_weight="1" style="@style/TextStyle.Button.Body"/>
+    <com.xiaopeng.xui.widget.XTextView android:id="@+id/item_2" android:layout_width="0dp" android:layout_height="80dp" android:layout_margin="8dp" android:text="@string/item_2" android:layout_weight="1" style="@style/TextStyle.Button.Body"/>
+    <com.xiaopeng.xui.widget.XTextView android:id="@+id/item_3" android:layout_width="0dp" android:layout_height="80dp" android:layout_margin="8dp" android:text="@string/item_3" android:layout_weight="1" style="@style/TextStyle.Button.Body"/>
+    <com.xiaopeng.xui.widget.XTextView android:id="@+id/item_4" android:layout_width="0dp" android:layout_height="80dp" android:layout_margin="8dp" android:text="@string/item_4" android:layout_weight="1" style="@style/TextStyle.Button.Body"/>
+    <com.xiaopeng.xui.widget.XTextView android:id="@+id/item_5" android:layout_width="0dp" android:layout_height="80dp" android:layout_margin="8dp" android:text="@string/item_5" android:layout_weight="1" style="@style/TextStyle.Button.Body"/>
+</LinearLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.xiaopeng.xui.widget.XTabLayout android:id="@+id/position_lamp_mode_tab" android:layout_width="636dp" android:layout_height="66dp" android:layout_marginTop="26dp" app:indicatorMarginBottom="10dp" app:indicatorShadowRadius="2dp" app:titles="@array/big_lamp_mode_group" app:vuiLabel="@string/big_lamp_mode_title"/>
+</com.xiaopeng.xui.widget.XFrameLayout>

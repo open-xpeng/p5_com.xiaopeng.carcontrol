@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <size android:height="56dp" android:width="56dp"/>
+            <solid android:color="@color/x_btn_flat_default_pressed_color"/>
+            <corners android:radius="40dp"/>
+        </shape>
+    </item>
+    <item android:state_selected="true">
+        <shape>
+            <size android:height="56dp" android:width="56dp"/>
+            <solid android:color="@color/x_btn_flat_default_pressed_color"/>
+            <corners android:radius="40dp"/>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <size android:height="56dp" android:width="56dp"/>
+            <solid android:color="@color/color_cus_steering_normal"/>
+            <corners android:radius="40dp"/>
+        </shape>
+    </item>
+</selector>

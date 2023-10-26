@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.xui.widget.XButton android:gravity="center" android:layout_gravity="center" android:id="@+id/x_list_two_button" android:minWidth="@dimen/x_btn_ghost_small_width" android:text="@string/btn_modify" style="@style/XButton.Ghost.Mid.Positive"/>
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:layout_width="@dimen/dialog_xpilot_video_view_width" android:layout_height="@dimen/dialog_xpilot_video_view_height">
+        <SurfaceView android:layout_gravity="center_horizontal" android:id="@+id/tv_video" android:layout_width="@dimen/dialog_xpilot_video_content_width" android:layout_height="@dimen/dialog_xpilot_video_view_height"/>
+        <ImageView android:layout_gravity="center_horizontal" android:id="@+id/iv_video_cover" android:visibility="gone" android:layout_width="@dimen/dialog_xpilot_video_content_width" android:layout_height="@dimen/dialog_xpilot_video_view_height" android:scaleType="fitXY"/>
+        <ImageView android:layout_gravity="center" android:id="@+id/iv_play" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_icon_play"/>
+    </FrameLayout>
+    <com.xiaopeng.xui.widget.XTextView android:textSize="26sp" android:textColor="@color/x_theme_text_01" android:id="@+id/tv_lane_center_video_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:text="@string/lane_center_video_tips"/>
+</LinearLayout>

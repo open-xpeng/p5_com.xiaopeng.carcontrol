@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.xui.widget.XTextView android:textSize="@dimen/x_font_title_04_size" android:textColor="@color/x_theme_text_01_night" android:gravity="center" android:id="@+id/alarm_estimate_endurance_title" android:layout_width="match_parent" android:layout_height="38dp"/>
+    <com.xiaopeng.xui.widget.timepicker.XTimePicker android:layout_gravity="center_horizontal" android:id="@+id/space_sleep_time_picker" android:layout_width="wrap_content" android:layout_height="380dp" android:layout_marginTop="37dp"/>
+    <com.xiaopeng.xui.widget.XTextView android:textSize="@dimen/x_font_title_04_size" android:textColor="@color/x_theme_text_03_night" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="57dp" android:text="@string/space_sleep_music_alarm_time_tips"/>
+</com.xiaopeng.xui.widget.XLinearLayout>

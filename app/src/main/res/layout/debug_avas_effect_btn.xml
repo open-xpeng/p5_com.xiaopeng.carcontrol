@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XTextView xmlns:android="http://schemas.android.com/apk/res/android" android:textSize="@dimen/x_font_title_04_size" android:layout_width="match_parent" android:layout_height="68dp" style="@style/TextStyle.Button.Body"/>

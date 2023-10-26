@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="item_x_pilot_tab_span_size">@integer/xpilot_list_span_count</integer>
+    <integer name="psn_region_id">2</integer>
+    <integer name="xpilot_list_span_count">2</integer>
+</resources>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XTextView xmlns:android="http://schemas.android.com/apk/res/android" android:textSize="@dimen/x_font_body_02_size" android:textColor="@color/x_theme_text_01" android:id="@+id/space_capsule_safety_instruction" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/space_capsule_safety_instruction"/>

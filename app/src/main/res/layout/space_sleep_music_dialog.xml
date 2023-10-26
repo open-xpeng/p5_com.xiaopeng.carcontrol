@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.xui.widget.XRelativeLayout android:background="@drawable/x_list_item_selector_night" android:paddingTop="@dimen/space_sleep_music_dialog_margin_top" android:layout_width="match_parent" android:layout_height="416dp">
+        <com.xiaopeng.xui.widget.XTextView android:textSize="@dimen/x_font_title_04_size" android:textColor="@color/x_theme_text_01_night" android:id="@+id/space_sleep_music_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_sleep_music_dialog_margin_lr" android:text="@string/space_sleep_music_select"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/space_sleep_music_layout1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_sleep_music_dialog_padding" android:layout_marginTop="16dp" android:layout_marginRight="@dimen/space_sleep_music_dialog_padding" android:layout_below="@+id/space_sleep_music_title">
+            <include android:id="@+id/space_sleep_music1" layout="@layout/space_sleep_music_type"/>
+            <View android:layout_width="wrap_content" android:layout_height="1dp" android:layout_weight="1"/>
+            <include android:id="@+id/space_sleep_music2" layout="@layout/space_sleep_music_type"/>
+            <View android:layout_width="wrap_content" android:layout_height="1dp" android:layout_weight="1"/>
+            <include android:id="@+id/space_sleep_music3" layout="@layout/space_sleep_music_type"/>
+            <View android:layout_width="wrap_content" android:layout_height="1dp" android:layout_weight="1"/>
+            <include android:id="@+id/space_sleep_music4" layout="@layout/space_sleep_music_type"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_sleep_music_dialog_padding" android:layout_marginTop="22dp" android:layout_marginRight="@dimen/space_sleep_music_dialog_padding" android:layout_below="@+id/space_sleep_music_layout1">
+            <include android:id="@+id/space_sleep_music5" layout="@layout/space_sleep_music_type"/>
+            <View android:layout_width="wrap_content" android:layout_height="1dp" android:layout_weight="1"/>
+            <include android:id="@+id/space_sleep_music6" layout="@layout/space_sleep_music_type"/>
+            <View android:layout_width="wrap_content" android:layout_height="1dp" android:layout_weight="1"/>
+            <include android:id="@+id/space_sleep_music7" layout="@layout/space_sleep_music_type"/>
+            <View android:layout_width="wrap_content" android:layout_height="1dp" android:layout_weight="1"/>
+            <include android:id="@+id/space_sleep_music8" layout="@layout/space_sleep_music_type"/>
+        </LinearLayout>
+    </com.xiaopeng.xui.widget.XRelativeLayout>
+    <com.xiaopeng.xui.widget.XRelativeLayout android:background="@drawable/x_list_item_selector_night" android:paddingLeft="@dimen/space_sleep_music_dialog_margin_lr" android:paddingTop="@dimen/space_sleep_music_dialog_margin_top" android:layout_width="match_parent" android:layout_height="210dp" android:layout_marginTop="16dp">
+        <com.xiaopeng.xui.widget.XTextView android:textSize="@dimen/x_font_title_04_size" android:textColor="@color/x_theme_text_01_night" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/space_sleep_music_timer"/>
+        <com.xiaopeng.xui.widget.XTextView android:textSize="@dimen/x_font_body_03_size" android:textColor="@color/space_sleep_dialog_sub_color" android:id="@+id/space_sleep_music_time_tips" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="71dp" android:text="@string/space_sleep_music_stop_time" android:drawableLeft="@drawable/space_sleep_music_time" android:drawablePadding="16dp" android:layout_alignParentRight="true"/>
+        <com.xiaopeng.xui.widget.XTabLayout android:id="@+id/space_sleep_music_time_tab" android:layout_width="@dimen/x_list_multiple_bottom_width" android:layout_height="@dimen/x_list_multiple_bottom_height" android:layout_marginBottom="44dp" android:layout_alignParentBottom="true" app:titles="@array/space_sleep_music_times"/>
+    </com.xiaopeng.xui.widget.XRelativeLayout>
+</com.xiaopeng.xui.widget.XLinearLayout>

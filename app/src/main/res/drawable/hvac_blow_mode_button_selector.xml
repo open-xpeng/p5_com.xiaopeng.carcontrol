@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+        <shape>
+            <stroke android:width="3dp" android:color="@color/colorPrimary"/>
+            <size android:height="90dp" android:width="160dp"/>
+            <corners android:radius="45dp"/>
+            <solid android:color="@color/hvac_blow_mode_button"/>
+        </shape>
+    </item>
+    <item android:drawable="@color/x_transparent_white"/>
+</selector>

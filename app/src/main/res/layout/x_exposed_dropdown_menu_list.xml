@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ListView android:scrollbarThumbVertical="@drawable/x_exposed_dropdown_menu_thumb" android:id="@+id/list_view" android:background="@drawable/x_exposed_dropdown_menu_list_bg" android:fadingEdge="none" android:fadingEdgeLength="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:listSelector="@android:color/transparent" android:divider="@drawable/x_exposed_dropdown_menu_divider" android:overScrollMode="never"/>
+</LinearLayout>

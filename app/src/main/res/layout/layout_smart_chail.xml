@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="62dp" android:layout_marginEnd="62dp">
+    <com.xiaopeng.xui.widget.XTextView android:textSize="@dimen/x_font_body_01_size" android:textColor="@color/x_theme_text_03" android:id="@+id/pick_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/auto_fix_chair_tips1" style="@style/SmartSeatAdjStyle"/>
+    <com.xiaopeng.xui.widget.XLinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/pick_title" android:layout_centerInParent="true">
+        <com.xiaopeng.carcontrol.view.widget.NumberPickerView android:id="@+id/gender_number_picker" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" app:np_textLayout="left" style="@style/smart_char_numberpicker"/>
+        <com.xiaopeng.carcontrol.view.widget.NumberPickerView android:layout_gravity="center" android:id="@+id/height_number_picker" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginStart="10dp" android:layout_marginEnd="10dp" app:np_textLayout="middle" style="@style/smart_char_numberpicker"/>
+        <com.xiaopeng.carcontrol.view.widget.NumberPickerView android:id="@+id/weight_number_picker" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" app:np_textLayout="right" style="@style/smart_char_numberpicker"/>
+    </com.xiaopeng.xui.widget.XLinearLayout>
+</com.xiaopeng.xui.widget.XRelativeLayout>

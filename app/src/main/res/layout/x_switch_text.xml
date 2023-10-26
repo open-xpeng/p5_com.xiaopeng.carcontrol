@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/x_container" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+        <com.xiaopeng.xui.widget.XSwitch android:id="@+id/x_switch" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginStart="8dp" style="@style/TextStyle"/>
+    </LinearLayout>
+    <FrameLayout android:id="@+id/x_info" android:visibility="gone" android:layout_width="80dp" android:layout_height="match_parent">
+        <com.xiaopeng.xui.widget.XImageView android:layout_gravity="center" android:background="@drawable/ic_small_information" android:layout_width="40dp" android:layout_height="40dp"/>
+    </FrameLayout>
+</merge>

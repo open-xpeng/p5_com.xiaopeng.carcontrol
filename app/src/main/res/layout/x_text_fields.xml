@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.xiaopeng.xui.widget.XEditText android:id="@+id/x_text_fields_edit" android:layout_toStartOf="@+id/x_text_fields_icon_layout" app:vuiLabel="@string/vui_label_input" style="@style/XEdit.TextFields"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/x_text_fields_icon_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@+id/x_text_fields_edit" android:layout_alignBottom="@+id/x_text_fields_edit" android:layout_marginStart="@dimen/x_text_fields_icon_margin_horizontal" android:layout_alignParentEnd="true">
+        <com.xiaopeng.xui.widget.XImageButton android:layout_gravity="center_vertical" android:id="@+id/x_text_fields_reset" android:visibility="gone" app:vuiLabel="@string/vui_label_reset" style="@style/XButton.Icon.Small.Close"/>
+        <com.xiaopeng.xui.widget.XImageButton android:layout_gravity="center_vertical" android:id="@+id/x_text_fields_pass" android:visibility="gone" android:src="@drawable/x_text_fields_password" android:layout_marginStart="@dimen/x_text_fields_icon_margin_horizontal" style="@style/XButton.Icon.Small"/>
+    </LinearLayout>
+    <ImageView android:id="@+id/x_text_fields_line" android:background="@android:color/white" android:layout_width="match_parent" android:layout_height="@dimen/x_text_fields_line_size" android:layout_alignBottom="@+id/x_text_fields_edit"/>
+    <com.xiaopeng.xui.widget.XTextView android:id="@+id/x_text_fields_error" android:visibility="visible" android:layout_below="@+id/x_text_fields_edit" app:vuiMode="DISABLED" style="@style/XTextFieldsError"/>
+</merge>

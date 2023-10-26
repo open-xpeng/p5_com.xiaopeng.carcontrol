@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:height="@dimen/x_check_box_height" android:width="@dimen/x_check_box_width">
+        <drawable class="com.xiaopeng.xui.drawable.checkbox.XCheckBoxDrawable"/>
+    </item>
+</layer-list>

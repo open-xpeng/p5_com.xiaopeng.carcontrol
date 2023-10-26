@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="wrap_content" android:layout_height="match_parent">
+    <com.xiaopeng.xui.widget.XTabLayout android:layout_gravity="center_vertical" android:id="@+id/isla_spd_range_tab" android:layout_width="644dp" android:layout_height="66dp" app:tabLayoutVuiLabels="@array/scu_isla_speed_limit_type" app:titles="@array/scu_isla_speed_limit_type" app:vuiLabel="@string/isla_speed_range_title" style="@style/wiper_interval_tab_style"/>
+</com.xiaopeng.xui.widget.XFrameLayout>

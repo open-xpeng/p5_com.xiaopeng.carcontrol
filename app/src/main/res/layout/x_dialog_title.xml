@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:id="@+id/x_dialog_title_layout" android:layout_width="match_parent" android:layout_height="@dimen/x_dialog_title_layout_height">
+    <com.xiaopeng.xui.widget.XImageButton android:id="@+id/x_dialog_close" android:visibility="invisible" android:layout_margin="@dimen/x_dialog_close_padding" app:vuiDisableHitEffect="true" app:vuiEnableViewVuiMode="true" app:vuiLabel="@string/vui_label_close_dialog" style="@style/XButton.Icon.Large.Close"/>
+    <com.xiaopeng.xui.widget.XTextView android:id="@+id/x_dialog_title" android:layout_alignTop="@+id/x_dialog_close" android:layout_alignBottom="@+id/x_dialog_close" android:layout_marginStart="@dimen/x_dialog_content_margin_horizontal" android:layout_marginEnd="@dimen/x_dialog_content_margin_horizontal" style="@style/XDialogTitleStyle"/>
+</RelativeLayout>

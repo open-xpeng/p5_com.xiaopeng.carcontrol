@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="38dp" android:width="36dp" android:viewportWidth="36" android:viewportHeight="38">
+    <path android:fillColor="#00000000" android:pathData="M8,11L28,11C31.3137,11 34,13.6863 34,17L34,34C34,35.1046 33.1046,36 32,36L4,36C2.8954,36 2,35.1046 2,34L2,17C2,13.6863 4.6863,11 8,11Z" android:strokeColor="@color/meditation_primary_color_selector" android:strokeWidth="4" android:fillType="nonZero"/>
+    <path android:fillColor="@color/meditation_primary_color_selector" android:pathData="M10,0L26,0A2,2 0,0 1,28 2L28,2A2,2 0,0 1,26 4L10,4A2,2 0,0 1,8 2L8,2A2,2 0,0 1,10 0z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillType="evenOdd"/>
+    <path android:fillColor="@color/meditation_primary_color_selector" android:pathData="M21,4h4v8h-4z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillType="evenOdd"/>
+    <path android:fillColor="@color/meditation_primary_color_selector" android:pathData="M11,4h4v8h-4z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillType="evenOdd"/>
+    <path android:fillColor="#00000000" android:pathData="M2,24.5C6,27.1667 11.3333,28.5 18,28.5C24.6667,28.5 30,27.1667 34,24.5" android:strokeColor="@color/meditation_primary_color_selector" android:strokeWidth="4" android:fillType="evenOdd"/>
+</vector>

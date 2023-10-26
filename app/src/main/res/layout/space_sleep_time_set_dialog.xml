@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.xui.widget.XLinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/space_sleep_time_bg" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.xiaopeng.xui.widget.XTextView android:textSize="24dp" android:textColor="@color/space_sleep_time_tips_color" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="153dp" android:text="@string/space_sleep_music_alarm_wakeup_time"/>
+        <com.xiaopeng.xui.widget.XTextView android:textSize="88dp" android:textColor="@color/space_sleep_time_color" android:layout_gravity="center_horizontal" android:id="@+id/space_sleep_alarm_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14dp"/>
+    </com.xiaopeng.xui.widget.XLinearLayout>
+    <com.xiaopeng.xui.widget.XTextView android:textSize="@dimen/x_font_title_04_size" android:textColor="@color/x_theme_text_03_night" android:layout_gravity="center_horizontal" android:id="@+id/space_sleep_alarm_time_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:text="@string/space_sleep_music_alarm_time_tips"/>
+</com.xiaopeng.xui.widget.XLinearLayout>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/layout_llu_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/scroll_page_margin" android:layout_marginBottom="@dimen/scroll_page_margin" android:overScrollMode="never" android:layout_marginEnd="@dimen/page_margin_end"/>

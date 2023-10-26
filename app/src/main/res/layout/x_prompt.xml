@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.xui.widget.XRelativeLayout android:gravity="center" android:layout_gravity="top|center_horizontal" android:padding="@dimen/x_prompt_bg_padding" android:clipChildren="false" android:clipToPadding="false" android:layout_width="@dimen/x_prompt_max_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/x_prompt_margin_top">
+        <com.xiaopeng.xui.widget.XLinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/x_prompt_layout" android:background="@drawable/x_bg_toast" android:layout_width="wrap_content" android:layout_height="@dimen/x_prompt_height" android:paddingStart="@dimen/x_prompt_padding_left" android:paddingEnd="@dimen/x_prompt_padding_right" android:elevation="6dp">
+            <com.xiaopeng.xui.widget.XImageButton android:id="@+id/x_prompt_btn" android:visibility="gone" style="@style/XButton.Icon.Small.Close"/>
+            <com.xiaopeng.xui.widget.XButton android:id="@+id/x_prompt_btn_2" android:visibility="gone" style="@style/XButton.Ghost.Small.Positive"/>
+            <com.xiaopeng.xui.widget.XTextView android:id="@+id/x_prompt_text" style="@style/XPromptTextStyle"/>
+        </com.xiaopeng.xui.widget.XLinearLayout>
+    </com.xiaopeng.xui.widget.XRelativeLayout>
+</merge>

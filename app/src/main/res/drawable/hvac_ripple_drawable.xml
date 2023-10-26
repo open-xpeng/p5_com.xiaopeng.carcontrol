@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<drawable xmlns:app="http://schemas.android.com/apk/res-auto" app:rippleColor="@color/hvac_btn_ripple_color" app:rippleRadius="60dp" class="com.xiaopeng.xui.drawable.ripple.XRippleDrawable"/>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="hvac_ic_hvac_fragrance">@drawable/ic_hvac_fragrance</drawable>
+    <drawable name="hvac_ic_mid_airpurification">@drawable/ic_mid_airpurification</drawable>
+    <drawable name="hvac_ic_mid_deodorate">@drawable/ic_mid_deodorate</drawable>
+    <drawable name="hvac_ic_mid_lefton">@drawable/ic_mid_lefton</drawable>
+    <drawable name="hvac_ic_mid_refrigeration">@drawable/ic_mid_refrigeration</drawable>
+    <drawable name="img_llu_sayhi_sw_confirm" />
+    <drawable name="material_ic_keyboard_arrow_next_black_24dp">@drawable/material_ic_keyboard_arrow_right_black_24dp</drawable>
+    <drawable name="material_ic_keyboard_arrow_previous_black_24dp">@drawable/material_ic_keyboard_arrow_left_black_24dp</drawable>
+    <drawable name="notification_template_icon_bg">#3333b5e5</drawable>
+    <drawable name="notification_template_icon_low_bg">#0cffffff</drawable>
+</resources>

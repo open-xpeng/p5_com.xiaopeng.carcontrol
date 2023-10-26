@@ -1,0 +1,52 @@
+[
+  {
+    "bizId": 1,
+    "title": "meditation_theme_title_1",
+    "listenUrl": "/system/media/audio/xiaopeng/cdu/wav/CDU_relax_forest.wav",
+    "videoUrl": "/system/media/video/xiaopeng/cdu/mp4/CDU_relax_forest.mp4",
+    "thumbnailUrl": "img_forest",
+    "midThumbnail": "img_dialog_forest",
+    "info": "meditation_theme_info_1",
+    "detail": "meditation_theme_detail_1"
+  },
+  {
+    "bizId": 2,
+    "listenUrl": "/system/media/audio/xiaopeng/cdu/wav/CDU_relax_sea.wav",
+    "videoUrl": "/system/media/video/xiaopeng/cdu/mp4/CDU_relax_sea.mp4",
+    "thumbnailUrl": "img_sea",
+    "midThumbnail": "img_dialog_sea",
+    "title": "meditation_theme_title_2",
+    "info": "meditation_theme_info_2",
+    "detail": "meditation_theme_detail_2"
+  },
+  {
+    "bizId": 3,
+    "listenUrl": "",
+    "videoUrl": "",
+    "thumbnailUrl": "img_desert",
+    "midThumbnail": "",
+    "title": "meditation_theme_title_3",
+    "info": "",
+    "detail": ""
+  },
+  {
+    "bizId": 4,
+    "listenUrl": "",
+    "videoUrl": "",
+    "thumbnailUrl": "img_mountain",
+    "midThumbnail": "",
+    "title": "meditation_theme_title_3",
+    "info": "",
+    "detail": ""
+  },
+  {
+    "bizId": 5,
+    "listenUrl": "",
+    "videoUrl": "",
+    "thumbnailUrl": "img_snow",
+    "midThumbnail": "",
+    "title": "meditation_theme_title_3",
+    "info": "",
+    "detail": ""
+  }
+]

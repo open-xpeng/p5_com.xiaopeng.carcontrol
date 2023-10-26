@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="llu_ai_btn">#c2ffffff</color>
+    <color name="llu_ai_btn_tip">#757d8d</color>
+    <color name="llu_ai_text_recognizing">#ff1683f9</color>
+    <color name="llu_ai_user_manual_content_bg_end_color">#29000000</color>
+    <color name="llu_ai_user_manual_content_bg_start_color">#29000000</color>
+    <color name="llu_ai_user_manual_index">#757d8d</color>
+    <color name="llu_dance_list_item_selected_border">#1683f9</color>
+    <color name="llu_dance_recycler_item_selected">#8f000000</color>
+    <color name="llu_dance_recycler_item_unselected">#29000000</color>
+    <color name="tile_warning_color">#ffff8400</color>
+</resources>

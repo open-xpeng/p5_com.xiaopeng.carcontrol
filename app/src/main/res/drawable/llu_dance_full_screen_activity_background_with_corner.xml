@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/llu_dance_light_bg"/>
+    <item>
+        <shape>
+            <corners android:radius="@dimen/llu_dance_full_screen_activity_corner_radius"/>
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="confirm_auto_park_func_dialog" parent="@style/XDialogView.Large">
+        <item name="dialog_height">650dp</item>
+    </style>
+    <style name="item_x_pilot_card_style" parent="">
+        <item name="android:layout_marginTop">@dimen/category_item_gap</item>
+        <item name="android:layout_marginBottom">@dimen/category_item_gap</item>
+        <item name="android:layout_marginEnd">24dp</item>
+    </style>
+    <style name="item_x_pilot_cate_style" parent="@style/XGroupHeader">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginTop">@dimen/category_item_gap</item>
+        <item name="android:layout_marginBottom">@dimen/category_item_gap</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:layout_marginStart">-2dp</item>
+        <item name="android:layout_marginEnd">24dp</item>
+    </style>
+    <style name="item_x_pilot_tab_style" parent="">
+        <item name="android:paddingBottom">34dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/category_item_gap</item>
+        <item name="android:layout_marginBottom">@dimen/category_item_gap</item>
+        <item name="android:layout_marginStart">-2dp</item>
+        <item name="android:layout_marginEnd">24dp</item>
+    </style>
+    <style name="iv_x_pilot_info_style" parent="">
+        <item name="android:layout_width">68dp</item>
+        <item name="android:layout_height">68dp</item>
+        <item name="android:layout_marginTop">3dp</item>
+    </style>
+    <style name="show_close_safe_belt_dialog" parent="@style/XDialogView.Large">
+        <item name="dialog_height">450dp</item>
+    </style>
+    <style name="tv_x_pilot_card_title_style" parent="">
+        <item name="android:textSize">@dimen/x_font_title_04_size</item>
+        <item name="android:layout_width">257dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginStart">25dp</item>
+    </style>
+    <style name="x_dialog_style" parent="@style/XDialogView">
+    </style>
+</resources>

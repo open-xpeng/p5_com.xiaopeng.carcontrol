@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <VideoView android:id="@+id/meditation_play_surface" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <include android:id="@+id/play_main" android:layout_width="@dimen/single_screen_width" android:layout_height="match_parent" layout="@layout/layout_meditation_play_main"/>
+    <include android:id="@+id/play_secondary" android:visibility="@integer/meditation_psn_visibility" android:layout_width="@dimen/single_screen_width" android:layout_height="match_parent" android:layout_marginLeft="@dimen/single_screen_width" layout="@layout/layout_meditation_play_secondary"/>
+</com.xiaopeng.xui.widget.XRelativeLayout>

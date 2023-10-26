@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/pickers" android:layout_width="@dimen/x_picker_width" android:layout_height="@dimen/x_picker_height">
+    <com.xiaopeng.xui.widget.XNumberPicker android:id="@+id/picker1" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" style="@style/XNumberPicker.leftLeftStyle"/>
+    <com.xiaopeng.xui.widget.XNumberPicker android:id="@+id/picker2" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" style="@style/XNumberPicker.middleMiddleStyle"/>
+    <com.xiaopeng.xui.widget.XNumberPicker android:id="@+id/picker3" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" style="@style/XNumberPicker.rightRightStyle"/>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="wrap_content" android:layout_height="match_parent">
+    <com.xiaopeng.xui.widget.XButton android:layout_gravity="center" android:id="@+id/x_list_button" android:minWidth="@dimen/x_btn_ghost_small_width" android:text="@string/xpilot_3_purchase_btn" app:vuiLabel="@string/ihb_title_vui_label" style="@style/XButton.Ghost.Mid.Positive"/>
+    <com.xiaopeng.carcontrol.view.widget.CustomXSwitch android:layout_gravity="center" android:id="@+id/x_list_sw" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</com.xiaopeng.xui.widget.XFrameLayout>

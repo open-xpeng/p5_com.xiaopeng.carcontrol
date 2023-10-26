@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/space_sleep_root_view" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.xui.widget.XTextView android:textSize="50sp" android:textColor="@color/space_capsule_view_title_text_color" android:id="@+id/space_capsule_sleep_view_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="140dp" android:text="@string/space_capsule_sleep_view_title" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="@style/TextStyle.title"/>
+    <com.xiaopeng.xui.widget.XTextView android:textSize="26sp" android:textColor="@color/space_capsule_view_summary_text_color" android:id="@+id/space_capsule_sleep_view_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="215dp" android:text="@string/space_capsule_sleep_view_desc" android:layout_centerHorizontal="true" style="@style/TextStyle.Summary"/>
+    <com.xiaopeng.xui.widget.XImageView android:layout_width="697dp" android:layout_height="1dp" android:layout_marginTop="232dp" android:src="@drawable/space_capsule_mode_decoration_img" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"/>
+    <com.airbnb.lottie.LottieAnimationView android:id="@+id/space_sleep_animator" android:layout_width="match_parent" android:layout_height="1080dp"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/space_capsule_bottom_control" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="45dp" android:layout_marginRight="45dp" android:layout_marginBottom="153dp" android:layout_alignParentBottom="true">
+        <include android:id="@+id/space_capsule_sleep_airconditiner_btn" layout="@layout/space_capsule_container_card"/>
+        <View android:id="@+id/space_capsule_blank1" android:layout_width="10dp" android:layout_height="1dp"/>
+        <include android:id="@+id/space_capsule_sleep_music_btn" layout="@layout/space_capsule_icon_item_layout"/>
+        <View android:id="@+id/space_capsule_blank2" android:layout_width="10dp" android:layout_height="1dp"/>
+        <include android:id="@+id/space_capsule_sleep_alarm_btn" layout="@layout/space_capsule_icon_item_layout"/>
+        <View android:id="@+id/space_capsule_blank3" android:layout_width="10dp" android:layout_height="1dp"/>
+        <include android:id="@+id/space_capsule_sleep_fragrance_btn" layout="@layout/space_capsule_icon_item_layout"/>
+    </LinearLayout>
+    <com.xiaopeng.xui.widget.XButton android:textSize="@dimen/x_font_body_01_size" android:textColor="#8fffffff" android:id="@+id/space_capsule_protect_tip" android:background="@drawable/space_capsule_item_bg" android:paddingLeft="26dp" android:paddingTop="14dp" android:paddingRight="26dp" android:paddingBottom="14dp" android:layout_width="191dp" android:layout_height="66dp" android:layout_marginBottom="10dp" android:text="@string/space_capsule_sleep_protect_title" android:drawablePadding="16dp" android:layout_above="@+id/space_capsule_bottom_control" android:layout_alignLeft="@+id/space_capsule_bottom_control" android:drawableStart="@drawable/ic_space_capsule_protect"/>
+</com.xiaopeng.xui.widget.XRelativeLayout>

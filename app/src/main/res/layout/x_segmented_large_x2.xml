@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioGroup android:gravity="center" android:orientation="horizontal" android:id="@+id/radio_group_button" android:background="@drawable/x_segmented_large_x2" android:layout_width="636dp" android:layout_height="100dp">
+        <RadioButton android:id="@+id/radio_button_home" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="首页" style="@style/XNavigationItem"/>
+        <RadioButton android:id="@+id/radio_button_discovery" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="发现" style="@style/XNavigationItem"/>
+    </RadioGroup>
+</merge>

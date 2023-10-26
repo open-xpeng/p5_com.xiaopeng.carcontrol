@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns:android="http://schemas.android.com/apk/res/android" android:scrollbarStyle="outsideOverlay" android:id="@+id/x_dialog_listview" android:layout_width="match_parent" android:layout_height="wrap_content" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:divider="@null" android:paddingStart="@dimen/x_dialog_content_scrollbar_in_padding" android:paddingEnd="@dimen/x_dialog_content_scrollbar_in_padding"/>

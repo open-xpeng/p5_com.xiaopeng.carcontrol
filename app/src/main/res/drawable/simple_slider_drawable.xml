@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:gravity="start|center_vertical" android:id="@android:id/background">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/simple_slider_bg_border_radius"/>
+            <solid android:color="@color/simple_slider_bg_color"/>
+        </shape>
+    </item>
+    <item android:gravity="start|center_vertical" android:id="@android:id/progress" android:top="@dimen/simple_slider_padding" android:bottom="@dimen/simple_slider_padding" android:start="@dimen/simple_slider_padding" android:end="@dimen/simple_slider_padding">
+        <drawable app:radius_x="@dimen/simple_slider_border_in_radius" app:radius_y="@dimen/simple_slider_border_in_radius" class="xiaopeng.widget.ClipDrawable">
+            <shape>
+                <corners android:radius="@dimen/simple_slider_border_out_radius"/>
+                <solid android:color="@color/simple_slider_color"/>
+            </shape>
+        </drawable>
+    </item>
+</layer-list>

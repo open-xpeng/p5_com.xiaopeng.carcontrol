@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list>
+    <item>
+        <selector>
+            <item android:state_enabled="true" android:state_pressed="true">
+                <shape>
+                    <corners android:topLeftRadius="@dimen/x_btn_ghost_large_radius" android:topRightRadius="@dimen/x_btn_ghost_large_radius"/>
+                    <solid android:color="@color/x_theme_primary_neutral_pressed"/>
+                </shape>
+            </item>
+            <item android:state_enabled="false">
+                <shape>
+                    <corners android:topLeftRadius="@dimen/x_btn_ghost_large_radius" android:topRightRadius="@dimen/x_btn_ghost_large_radius"/>
+                    <solid android:color="@color/x_theme_primary_neutral_disable"/>
+                </shape>
+            </item>
+            <item android:state_enabled="true">
+                <shape>
+                    <corners android:topLeftRadius="@dimen/x_btn_ghost_large_radius" android:topRightRadius="@dimen/x_btn_ghost_large_radius"/>
+                    <solid android:color="@color/x_theme_primary_neutral_normal"/>
+                </shape>
+            </item>
+        </selector>
+    </item>
+    <item>
+        <drawable app:rippleRadius="@dimen/x_btn_ghost_large_radius" app:rippleSupportScale="true" class="com.xiaopeng.xui.drawable.ripple.XRippleDrawable"/>
+    </item>
+</layer-list>

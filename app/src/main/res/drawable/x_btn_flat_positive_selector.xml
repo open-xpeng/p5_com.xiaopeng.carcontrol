@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <corners android:radius="@dimen/x_btn_flat_radius"/>
+        </shape>
+    </item>
+    <item>
+        <drawable app:rippleColor="@color/x_theme_primary_disable" app:rippleRadius="@dimen/x_btn_flat_radius" app:rippleSupportScale="true" class="com.xiaopeng.xui.drawable.ripple.XRippleDrawable"/>
+    </item>
+</layer-list>

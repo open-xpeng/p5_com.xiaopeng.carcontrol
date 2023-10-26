@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<drawable xmlns:app="http://schemas.android.com/apk/res-auto" app:toggle_enable_light="true" app:toggle_light_radius="@dimen/x_toggle_light_radius" class="com.xiaopeng.xui.drawable.XToggleDrawable"/>

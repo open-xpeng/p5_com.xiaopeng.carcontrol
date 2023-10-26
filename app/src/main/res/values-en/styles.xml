@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="HvacTopMenuStyle" parent="">
+        <item name="android:textSize">@dimen/x_font_body_04_size</item>
+        <item name="android:textColor">@color/hvac_menu_text_color_selector</item>
+        <item name="android:gravity">center</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">160dp</item>
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:layout_marginStart">12dp</item>
+        <item name="android:layout_marginEnd">12dp</item>
+    </style>
+    <style name="P_Gear_Menu_Btn" parent="@style/DropDownMenuBtn.Icon">
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">18dp</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:drawablePadding">3dp</item>
+        <item name="android:lineSpacingMultiplier">0.7</item>
+    </style>
+    <style name="P_Gear_Menu_Do_Not_Remind_Style" parent="">
+        <item name="android:layout_marginStart">24dp</item>
+        <item name="layout_constraintBottom_toBottomOf">@id/fr_door_btn</item>
+        <item name="layout_constraintStart_toEndOf">@id/easy_loading_btn</item>
+    </style>
+    <style name="P_Gear_Menu_title" parent="">
+    </style>
+    <style name="SmartAcModeDialogStyle" parent="@style/XDialogView.Large">
+        <item name="android:fadingEdge">vertical</item>
+        <item name="android:fadingEdgeLength">@dimen/x_fading_edge_length</item>
+        <item name="android:requiresFadingEdge">vertical</item>
+        <item name="android:paddingStart">0dp</item>
+        <item name="android:paddingEnd">0dp</item>
+    </style>
+    <style name="SmartSeatAdjStyle" parent="">
+        <item name="android:gravity">left</item>
+    </style>
+    <style name="Text_Summary_Style" parent="@style/TextStyle.Summary">
+    </style>
+    <style name="XList_Two_Item" parent="@style/XList.Two.WrapHeight">
+    </style>
+    <style name="atl_effect_dialog_title" parent="">
+        <item name="android:layout_width">464dp</item>
+        <item name="android:layout_height">72dp</item>
+    </style>
+    <style name="boss_key_sw" parent="@style/XList.Two.WrapHeight">
+        <item name="android:background">#00000000</item>
+        <item name="android:layout_height">160dp</item>
+    </style>
+    <style name="category_list_item_style" parent="@style/XCatalog.Item">
+    </style>
+    <style name="confirm_auto_park_func_dialog" parent="@style/XDialogView.Large">
+    </style>
+    <style name="double_click_open_title_tv_style" parent="@style/TextStyle.title">
+        <item name="android:gravity">left</item>
+    </style>
+    <style name="drive_mode_desc_style" parent="@style/TextStyle">
+        <item name="android:layout_width">500dp</item>
+    </style>
+    <style name="isla_confirm_sw" parent="@style/XList.Two.WrapHeight">
+        <item name="android:layout_height">160dp</item>
+    </style>
+    <style name="laboratory_near_unlock_style" parent="@style/XList.Two.WrapHeight">
+        <item name="android:background">@drawable/sub_item_mid_bg</item>
+    </style>
+    <style name="open_sdc_with_win_sw_style" parent="@style/XList.Two.WrapHeight">
+    </style>
+    <style name="park_auto_unlock_sw_item_style" parent="@style/XList_Two_Item">
+        <item name="android:background">@drawable/sub_item_mid_bg</item>
+    </style>
+    <style name="power_recycle_tab_item_style" parent="@style/XList.Multiple.WrapHeight">
+        <item name="android:layout_height">250dp</item>
+    </style>
+    <style name="seat_adjust_btn" parent="@style/XButton.Ghost.Large.Positive">
+        <item name="android:textSize">@dimen/x_font_body_02_size</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="seat_auto_control_style" parent="@style/XButton.Ghost.Large.Positive">
+        <item name="android:textSize">@dimen/x_font_title_03_size</item>
+    </style>
+    <style name="seat_drv_tip_style" parent="">
+        <item name="android:background">@drawable/content_title_bg_two_lines</item>
+        <item name="android:layout_width">650dp</item>
+        <item name="android:layout_height">95dp</item>
+    </style>
+    <style name="seat_mirror_ctrl_menu_btn" parent="@style/TextStyle.title">
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="show_close_safe_belt_dialog" parent="@style/XDialogView.Large">
+        <item name="dialog_height">480dp</item>
+        <item name="dialog_width">1200dp</item>
+    </style>
+    <style name="sunshade_panel_btn" parent="@style/XToggleButton.Fill">
+        <item name="android:fontFamily" />
+    </style>
+    <style name="tpms_style" parent="@style/TextStyle.Summary">
+        <item name="android:textSize">@dimen/x_font_body_04_size</item>
+        <item name="android:textColor">@color/x_theme_text_04</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">false</item>
+    </style>
+    <style name="wiper_interval_tab_style" parent="">
+        <item name="titles">@array/wiper_gear_array</item>
+    </style>
+    <style name="x_dialog_style" parent="@style/XDialogView.Large">
+    </style>
+    <style name="x_key_desc" parent="@style/XListTextSub.Two">
+        <item name="android:paddingBottom">23dp</item>
+        <item name="android:layout_marginTop">47dp</item>
+        <item name="android:maxLines">2</item>
+    </style>
+</resources>

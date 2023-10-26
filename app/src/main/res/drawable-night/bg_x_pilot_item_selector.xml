@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="false" android:state_pressed="true">
+        <layer-list>
+            <item>
+                <shape>
+                    <corners android:radius="@dimen/x_btn_ghost_small_radius"/>
+                    <solid android:color="@color/x_pilot_off_bg"/>
+                </shape>
+            </item>
+            <item>
+                <shape>
+                    <corners android:radius="@dimen/x_btn_ghost_small_radius"/>
+                    <gradient android:startColor="@color/x_pilot_on_bg_start" android:endColor="@color/x_pilot_on_bg_end" android:angle="270" android:type="linear"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_selected="true" android:state_pressed="true">F 
+        <shape>
+            <corners android:radius="@dimen/x_btn_ghost_small_radius"/>
+            <solid android:color="@color/x_pilot_off_bg"/>
+        </shape>
+    </item>
+    <item android:state_selected="true">
+        <layer-list>
+            <item>
+                <shape>
+                    <corners android:radius="@dimen/x_btn_ghost_small_radius"/>
+                    <solid android:color="@color/x_pilot_off_bg"/>
+                </shape>
+            </item>
+            <item>
+                <shape>
+                    <corners android:radius="@dimen/x_btn_ghost_small_radius"/>
+                    <gradient android:startColor="@color/x_pilot_on_bg_start" android:endColor="@color/x_pilot_on_bg_end" android:angle="270" android:type="linear"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <shape>
+            <corners android:radius="@dimen/x_btn_ghost_small_radius"/>
+            <solid android:color="@color/x_pilot_off_bg"/>
+        </shape>
+    </item>
+</selector>

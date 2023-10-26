@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="wrap_content" android:layout_height="match_parent">
+    <com.xiaopeng.xui.widget.XTabLayout android:layout_gravity="center_vertical" android:id="@+id/power_recycle_tab" android:layout_width="644dp" android:layout_height="66dp" app:titles="@array/power_recycle_array" app:vuiLabel="@string/power_recycle_tv"/>
+</FrameLayout>

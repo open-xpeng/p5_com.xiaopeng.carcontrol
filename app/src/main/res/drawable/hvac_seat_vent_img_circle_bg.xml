@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item>
+        <shape>
+            <corners android:radius="112dp"/>
+            <size android:height="112dp" android:width="112dp"/>
+            <solid android:color="@color/hvac_seat_heat_vent_bg_color"/>
+        </shape>
+    </item>
+    <item>
+        <drawable app:rippleRadius="112dp" app:rippleSupportScale="true" class="com.xiaopeng.xui.drawable.ripple.XRippleDrawable"/>
+    </item>
+</layer-list>

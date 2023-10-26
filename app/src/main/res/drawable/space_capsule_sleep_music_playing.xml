@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<drawable xmlns:app="http://schemas.android.com/apk/res-auto" app:drawable_scale="1.6" app:play_color="#5e91f3" class="com.xiaopeng.carcontrol.view.widget.PlayingDrawable"/>

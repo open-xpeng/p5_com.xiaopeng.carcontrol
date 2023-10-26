@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <corners android:topLeftRadius="@dimen/x_bg_list_radius" android:topRightRadius="@dimen/x_bg_list_radius"/>
+    <gradient android:startColor="@color/x_theme_bg_list_normal_start" android:endColor="@color/x_theme_bg_list_normal_end" android:angle="0" android:type="linear"/>
+</shape>

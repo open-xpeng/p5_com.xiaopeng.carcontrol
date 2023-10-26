@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.xiaopeng.xui.widget.XButton android:layout_gravity="start|top" android:id="@+id/x_key_modify_btn" android:background="@null" android:layout_width="433dp" android:layout_height="@dimen/trailer_rescue_layout_height" app:vuiAction="Click" app:vuiElementType="BUTTON" style="@style/TextStyle"/>
+    <com.xiaopeng.xui.widget.XTextView android:id="@+id/x_key_title" android:layout_width="433dp" app:vuiMode="DISABLED" style="@style/x_key_title_style"/>
+    <com.xiaopeng.xui.widget.XImageView android:layout_gravity="end|top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:src="@drawable/ic_btn_triangle" android:layout_marginEnd="12dp" app:vuiMode="DISABLED"/>
+    <com.xiaopeng.xui.widget.XTextView android:id="@+id/x_key_content" android:layout_width="wrap_content" android:layout_below="@+id/x_key_layout_bg" app:vuiMode="DISABLED" style="@style/x_key_content_style"/>
+</merge>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/toastContainer" android:background="@drawable/x_bg_toast_mask" android:layout_width="@dimen/x_toast_mask_width" android:layout_height="@dimen/x_toast_mask_height" android:minWidth="@dimen/x_toast_mask_width" android:minHeight="@dimen/x_toast_mask_height">
+    <com.xiaopeng.xui.widget.XRelativeLayout android:gravity="center" android:layout_gravity="center_horizontal" android:layout_marginTop="@dimen/x_toast_margin_top" style="@style/XToastLayoutStyle">
+        <view android:layout_gravity="center" android:id="@+id/textView" class="com.xiaopeng.xui.app.XToast$XToastTextView" style="@style/XToastTextStyle"/>
+    </com.xiaopeng.xui.widget.XRelativeLayout>
+</com.xiaopeng.xui.widget.XFrameLayout>

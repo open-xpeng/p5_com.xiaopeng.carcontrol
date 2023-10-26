@@ -1,0 +1,106 @@
+[
+  {
+    "id": 0,
+    "note_audio": "ai_llu_music_1",
+    "note_text": "ai_llu_sol",
+    "lamp_beam_bg": "ai_llu_piano_keys1",
+    "lamp_beam_pos": 48,
+    "lamp_beam_width": 38
+  },
+  {
+    "id": 1,
+    "note_audio": "ai_llu_music_2",
+    "note_text": "ai_llu_la",
+    "lamp_beam_bg": "ai_llu_piano_keys2",
+    "lamp_beam_pos": 72,
+    "lamp_beam_width": 38
+  },
+  {
+    "id": 2,
+    "note_audio": "ai_llu_music_3",
+    "note_text": "ai_llu_si",
+    "lamp_beam_bg": "ai_llu_piano_keys3",
+    "lamp_beam_pos": 96,
+    "lamp_beam_width": 38
+  },
+  {
+    "id": 3,
+    "note_audio": "ai_llu_music_4",
+    "note_text": "ai_llu_do",
+    "lamp_beam_bg": "ai_llu_piano_keys4",
+    "lamp_beam_pos": 144,
+    "lamp_beam_width": 72
+  },
+  {
+    "id": 4,
+    "note_audio": "ai_llu_music_5",
+    "note_text": "ai_llu_re",
+    "lamp_beam_bg": "ai_llu_piano_keys5",
+    "lamp_beam_pos": 207,
+    "lamp_beam_width": 72
+  },
+  {
+    "id": 5,
+    "note_audio": "ai_llu_music_6",
+    "note_text": "ai_llu_mi",
+    "lamp_beam_bg": "ai_llu_piano_keys6",
+    "lamp_beam_pos": 270,
+    "lamp_beam_width": 72
+  },
+  {
+    "id": 6,
+    "note_audio": "ai_llu_music_7",
+    "note_text": "ai_llu_fa",
+    "lamp_beam_bg": "ai_llu_piano_keys7",
+    "lamp_beam_pos": 333,
+    "lamp_beam_width": 72
+  },
+  {
+    "id": 7,
+    "note_audio": "ai_llu_music_8",
+    "note_text": "ai_llu_sol",
+    "lamp_beam_bg": "ai_llu_piano_keys8",
+    "lamp_beam_pos": 396,
+    "lamp_beam_width": 72
+  },
+  {
+    "id": 8,
+    "note_audio": "ai_llu_music_9",
+    "note_text": "ai_llu_la",
+    "lamp_beam_bg": "ai_llu_piano_keys9",
+    "lamp_beam_pos": 459,
+    "lamp_beam_width": 72
+  },
+  {
+    "id": 9,
+    "note_audio": "ai_llu_music_10",
+    "note_text": "ai_llu_si",
+    "lamp_beam_bg": "ai_llu_piano_keys10",
+    "lamp_beam_pos": 522,
+    "lamp_beam_width": 72
+  },
+  {
+    "id": 10,
+    "note_audio": "ai_llu_music_11",
+    "note_text": "ai_llu_do",
+    "lamp_beam_bg": "ai_llu_piano_keys11",
+    "lamp_beam_pos": 608,
+    "lamp_beam_width": 114
+  },
+  {
+    "id": 11,
+    "note_audio": "ai_llu_music_12",
+    "note_text": "ai_llu_re",
+    "lamp_beam_bg": "ai_llu_piano_keys12",
+    "lamp_beam_pos": 717,
+    "lamp_beam_width": 114
+  },
+  {
+    "id": 12,
+    "note_audio": "ai_llu_music_13",
+    "note_text": "ai_llu_mi",
+    "lamp_beam_bg": "ai_llu_piano_keys13",
+    "lamp_beam_pos": 826,
+    "lamp_beam_width": 114
+  }
+]

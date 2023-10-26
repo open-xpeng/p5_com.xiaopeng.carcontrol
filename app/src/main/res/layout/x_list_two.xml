@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" style="@style/XList.Two">
+    <RelativeLayout android:id="@+id/x_list_left_lay" android:layout_width="@dimen/x_list_left_width" android:layout_height="match_parent" android:layout_alignTop="@+id/x_list_tv_sub" android:layout_alignBottom="@+id/x_list_tv_sub" android:layout_centerVertical="true">
+        <com.xiaopeng.xui.widget.XTextView android:id="@+id/x_list_num" android:visibility="gone" app:vuiMode="DISABLED" style="@style/XListTextNum"/>
+        <ViewStub android:id="@+id/x_list_left" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/x_list_tv_lay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/x_list_left_width">
+        <com.xiaopeng.xui.widget.XTextView android:id="@+id/x_list_tv" android:paddingTop="@dimen/x_list_two_text_margin" android:paddingBottom="@dimen/x_list_two_text_margin" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:paddingEnd="@dimen/x_list_text_padding_end" app:vuiMode="DISABLED" style="@style/XListText"/>
+        <com.xiaopeng.xui.widget.XImageView android:id="@+id/x_list_tag" app:vuiMode="DISABLED" style="@style/XListIconTag"/>
+        <ViewStub android:id="@+id/x_list_tag_custom_lay" android:layout_width="wrap_content" android:layout_height="match_parent"/>
+    </LinearLayout>
+    <com.xiaopeng.xui.widget.XTextView android:id="@+id/x_list_tv_sub" android:paddingTop="@dimen/x_list_two_text_sub_margin_top" android:paddingBottom="@dimen/x_list_two_text_margin" android:layout_alignParentBottom="true" android:paddingEnd="@dimen/x_list_text_padding_end" android:layout_alignStart="@+id/x_list_tv_lay" app:vuiMode="DISABLED" style="@style/XListTextSub.Two"/>
+    <ViewStub android:id="@+id/x_list_right" android:layout_width="@dimen/x_list_right_width" android:layout_height="match_parent" android:layout_alignTop="@+id/x_list_tv_sub" android:layout_alignBottom="@+id/x_list_tv_sub" android:layout_centerVertical="true" android:layout_alignParentEnd="true"/>
+</merge>

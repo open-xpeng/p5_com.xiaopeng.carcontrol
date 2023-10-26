@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XTextView xmlns:android="http://schemas.android.com/apk/res/android" android:textSize="@dimen/x_font_body_02_size" android:textColor="@color/x_exposed_dropdown_menu_text_color" android:gravity="center_vertical" android:background="@drawable/x_exposed_dropdown_menu_item_background" android:paddingLeft="30dp" android:layout_width="260dp" android:layout_height="80dp" android:lines="1"/>

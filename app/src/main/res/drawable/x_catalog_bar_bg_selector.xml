@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true">
+        <layer-list>
+            <item android:height="@dimen/x_catalog_bar_height" android:width="@dimen/x_catalog_bar_width">
+                <shape>
+                    <gradient android:startColor="@color/x_theme_bg_catalog_start" android:endColor="@color/x_theme_bg_catalog_end" android:angle="0" android:type="linear"/>
+                </shape>
+            </item>
+            <item android:gravity="center_vertical" android:height="@dimen/x_catalog_bar_line_height" android:width="@dimen/x_catalog_bar_line_width">
+                <shape android:shape="rectangle">
+                    <corners android:radius="@dimen/x_catalog_bar_line_radius"/>
+                    <solid android:color="@color/x_theme_primary_normal"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_selected="true">
+        <layer-list>
+            <item android:height="@dimen/x_catalog_bar_height" android:width="@dimen/x_catalog_bar_width">
+                <shape>
+                    <gradient android:startColor="@color/x_theme_bg_catalog_start" android:endColor="@color/x_theme_bg_catalog_end" android:angle="0" android:type="linear"/>
+                </shape>
+            </item>
+            <item android:gravity="center_vertical" android:height="@dimen/x_catalog_bar_line_height" android:width="@dimen/x_catalog_bar_line_width">
+                <shape android:shape="rectangle">
+                    <corners android:radius="@dimen/x_catalog_bar_line_radius"/>
+                    <solid android:color="@color/x_theme_primary_normal"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item android:height="@dimen/x_catalog_bar_height" android:width="@dimen/x_catalog_bar_width">
+        <shape android:shape="rectangle"/>
+    </item>
+</selector>

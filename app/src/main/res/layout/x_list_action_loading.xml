@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.xui.widget.XLoading android:id="@+id/x_list_action_loading" android:saveEnabled="false" style="@style/XLoading.Medium"/>
+</RelativeLayout>

@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="arr_atl_effects">
+        <item>@string/atl_effect_none</item>
+        <item>@string/atl_effect_breath</item>
+    </array>
+    <array name="as_cdc_array">
+        <item>@string/as_cdc_comfort</item>
+        <item>@string/as_cdc_stand</item>
+        <item>@string/as_cdc_sport</item>
+    </array>
+    <array name="atl_double_colors">
+        <item>红白色|第一个|倒数第七个</item>
+        <item>橘色|第二个|倒数第六个</item>
+        <item>绿色|第三个|倒数第五个</item>
+        <item>白蓝色|第四个|倒数第四个</item>
+        <item>蓝色|第五个|倒数第三个</item>
+        <item>粉紫色|紫色|第六个|倒数第二个</item>
+        <item>玫红和紫色|第七个|倒数第一个</item>
+    </array>
+    <array name="atl_single_color_index">
+        <item>1</item>
+        <item>3</item>
+        <item>5</item>
+        <item>6</item>
+        <item>8</item>
+        <item>12</item>
+        <item>14</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+    </array>
+    <array name="atl_single_colors">
+        <item>红色</item>
+        <item>橘色</item>
+        <item>黄色</item>
+        <item>白色</item>
+        <item>绿色</item>
+        <item>浅蓝色</item>
+        <item>蓝色</item>
+        <item>紫色</item>
+        <item>浅紫色</item>
+        <item>粉红色</item>
+        <item>桃红色</item>
+        <item>其他</item>
+    </array>
+    <array name="auto_park_sound_type">
+        <item>@string/auto_park_sound_effect_sound</item>
+        <item>@string/auto_park_sound_effect_tts</item>
+    </array>
+    <array name="big_lamp_mode_group">
+        <item>@string/big_lamp_mode_light</item>
+        <item>@string/big_lamp_mode_classic</item>
+    </array>
+    <array name="boot_sound_effect_type">
+        <item>@string/boot_sound_effect_1</item>
+        <item>@string/boot_sound_effect_2</item>
+        <item>@string/boot_sound_effect_3</item>
+        <item>@string/boot_sound_effect_4</item>
+    </array>
+    <array name="cms_view_range_array">
+        <item>@string/cms_mirror_view_range_standard</item>
+        <item>@string/cms_mirror_view_range_wide</item>
+    </array>
+    <array name="double_click_open_type">
+        <item>@string/double_click_open_front</item>
+        <item>@string/double_click_open_main</item>
+    </array>
+    <array name="drive_mode_array">
+        <item>@string/drive_mode_comfort</item>
+        <item>@string/drive_mode_sport</item>
+        <item>@string/drive_mode_eco</item>
+    </array>
+    <array name="eps_array">
+        <item>@string/eps_soft</item>
+        <item>@string/eps_standard</item>
+        <item>@string/eps_sport</item>
+    </array>
+    <array name="head_lamp_group_icon">
+        <item>@drawable/ic_mid_head_lamp_off</item>
+        <item>@drawable/ic_mid_head_lamp_park</item>
+        <item>@drawable/ic_mid_head_lamp_low</item>
+        <item>@drawable/ic_mid_head_lamp_auto</item>
+    </array>
+    <array name="head_lamp_group_label">
+        <item>@string/head_lamp_off_label</item>
+        <item>@string/head_lamp_position</item>
+        <item>@string/head_lamp_low</item>
+        <item>@string/head_lamp_auto</item>
+    </array>
+    <array name="hvac_circulation_vui_label">
+        <item>@string/hvac_circulation_inside</item>
+        <item>@string/hvac_circulation_outside</item>
+        <item>@string/hvac_circulation_auto</item>
+    </array>
+    <array name="hvac_seat_air_vui_labels">
+        <item>@string/hvac_seat_air_vui_label_0</item>
+        <item>@string/hvac_seat_air_vui_label_3</item>
+        <item>@string/hvac_seat_air_vui_label_4</item>
+        <item>@string/hvac_seat_air_vui_label_5</item>
+    </array>
+    <array name="laboratory_tts_broadcast_type">
+        <item>@string/laboratory_tts_broadcast_detail</item>
+        <item>@string/laboratory_tts_broadcast_concise</item>
+    </array>
+    <array name="light_me_home_array">
+        <item>@string/switch_off</item>
+        <item>@string/light_me_home_time_15s</item>
+        <item>@string/light_me_home_time_30s</item>
+        <item>@string/light_me_home_time_60s</item>
+    </array>
+    <array name="llu_state_array">
+        <item>@string/llu_dance_action_null1</item>
+        <item>@string/llu_dance_action_null2</item>
+        <item>@string/llu_dance_action_null3</item>
+        <item>@string/llu_dance_action_null4</item>
+        <item>@string/llu_dance_action_null5</item>
+        <item>@string/llu_dance_action_download</item>
+        <item>@string/llu_dance_action_resume_download</item>
+        <item>@string/llu_dance_action_pause_download</item>
+        <item>@string/llu_dance_action_re_download</item>
+        <item>@string/llu_dance_action_play</item>
+    </array>
+    <array name="mirror_fold_state">
+        <item>@string/mirror_state_expand</item>
+        <item>@string/mirror_state_fold</item>
+    </array>
+    <array name="out_lock_unlock_feedback_array">
+        <item>@string/unlock_response_light</item>
+        <item>@string/unlock_response_light_and_horn</item>
+    </array>
+    <array name="power_recycle_array">
+        <item>@string/power_recycle_low</item>
+        <item>@string/power_recycle_medium</item>
+        <item>@string/power_recycle_high</item>
+    </array>
+    <array name="psn_seat_memory">
+        <item>@string/psn_seat_memory_one</item>
+        <item>@string/psn_seat_memory_two</item>
+        <item>@string/psn_seat_memory_three</item>
+    </array>
+    <array name="scu_isla_speed_limit_type">
+        <item>@string/isla_speed_range_lo</item>
+        <item>@string/isla_speed_range_hi</item>
+    </array>
+    <array name="scu_isla_type">
+        <item>@string/isla_feature_title_off</item>
+        <item>@string/isla_feature_title_sla</item>
+        <item>@string/isla_feature_title_isla</item>
+    </array>
+    <array name="scu_lss_sen_type">
+        <item>@string/lss_sensitive_item_low</item>
+        <item>@string/lss_sensitive_item_mid</item>
+        <item>@string/lss_sensitive_item_high</item>
+    </array>
+    <array name="scu_lss_type">
+        <item>@string/lss_feature_title_off</item>
+        <item>@string/lss_feature_title_ldw</item>
+        <item>@string/lss_feature_title_lka</item>
+    </array>
+    <array name="scu_simple_sas_type">
+        <item>@string/simple_sas_feature_title_off</item>
+        <item>@string/simple_sas_feature_title_manual</item>
+        <item>@string/simple_sas_feature_title_auto</item>
+    </array>
+    <array name="scu_special_sas_type">
+        <item>@string/special_sas_feature_item_display</item>
+        <item>@string/special_sas_feature_item_warning</item>
+        <item>@string/special_sas_feature_item_control</item>
+    </array>
+    <array name="sdc_brake_close_door_cfg">
+        <item>@string/sdc_brake_close_door_off</item>
+        <item>@string/sdc_brake_close_door_drv</item>
+        <item>@string/sdc_brake_close_door_front</item>
+    </array>
+    <array name="seat_control_array">
+        <item>@string/seat_control_driver_title</item>
+        <item>@string/seat_control_psn_title</item>
+    </array>
+    <array name="seat_massage_array">
+        <item>@string/massage_leg_adjust</item>
+        <item>@string/lumbar_adjust</item>
+    </array>
+    <array name="seat_memory_array">
+        <item>座椅1</item>
+        <item>座椅2</item>
+        <item>座椅3</item>
+    </array>
+    <array name="space_sleep_music_times">
+        <item>@string/space_sleep_music_timer_close</item>
+        <item>@string/space_sleep_music_timer_15</item>
+        <item>@string/space_sleep_music_timer_30</item>
+        <item>@string/space_sleep_music_timer_60</item>
+    </array>
+    <array name="space_tabsbar_titles">
+        <item>@string/space_capsule_common_title</item>
+        <item>@string/space_capsule_sleep_title</item>
+        <item>@string/space_capsule_cinema_title</item>
+    </array>
+    <array name="space_title_anim_array">
+        <item>@string/space_capsule_title_anim_0</item>
+        <item>@string/space_capsule_title_anim_1</item>
+        <item>@string/space_capsule_title_anim_2</item>
+        <item>@string/space_capsule_title_anim_3</item>
+    </array>
+    <array name="space_use_guide_titles">
+        <item>@string/space_capsule_use_guide_sleep</item>
+        <item>@string/space_capsule_use_guide_cinema</item>
+    </array>
+    <array name="steering_eps_mode">
+        <item>@string/steering_eps_soft</item>
+        <item>@string/steering_eps_standard</item>
+        <item>@string/steering_eps_sport</item>
+    </array>
+    <array name="unlock_response_mode">
+        <item>@string/unlock_response_light</item>
+        <item>@string/unlock_response_light_and_horn</item>
+        <item>@string/unlock_response_light_and_avas</item>
+    </array>
+    <array name="wind_mode_group_icon">
+        <item>@drawable/ic_mid_blowchest_blue</item>
+        <item>@drawable/ic_mid_blowfoot_blue</item>
+        <item>@drawable/ic_mid_blowheadfoot_blue</item>
+        <item>@drawable/ic_mid_blowwinfoot_blue</item>
+    </array>
+    <array name="wiper_gear_array">
+        <item>@string/wiper_gear_slow</item>
+        <item>@string/wiper_gear_medium</item>
+        <item>@string/wiper_gear_fast</item>
+        <item>@string/wiper_gear_ultra</item>
+    </array>
+    <array name="wiper_gear_array_icons">
+        <item>@drawable/ic_wiper_gear_slow</item>
+        <item>@drawable/ic_wiper_gear_medium</item>
+        <item>@drawable/ic_wiper_gear_fast</item>
+        <item>@drawable/ic_wiper_gear_ultra</item>
+    </array>
+    <array name="x_quick_side_bar_letters">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+        <item>#</item>
+    </array>
+    <array name="xpilot_ngp_change_lane_modes">
+        <item>@string/ngp_setting_change_lane_mode_radical</item>
+        <item>@string/ngp_setting_change_lane_mode_standard</item>
+    </array>
+    <array name="xpilot_ngp_lcs_remind_modes">
+        <item>@string/ngp_setting_remind_mode_tts</item>
+        <item>@string/ngp_setting_remind_mode_sound</item>
+    </array>
+    <array name="xpilot_ngp_overtake_mode">
+        <item>@string/ngp_setting_overtake_mode_normal</item>
+        <item>@string/ngp_setting_overtake_mode_conservative</item>
+    </array>
+    <array name="xpilot_ngp_prefer_lane">
+        <item>@string/ngp_setting_prefer_lane_1</item>
+        <item>@string/ngp_setting_prefer_lane_2</item>
+    </array>
+    <array name="xpilot_nra_type">
+        <item>@string/nra_feature_title_off</item>
+        <item>@string/nra_feature_title_near</item>
+        <item>@string/nra_feature_title_middle</item>
+        <item>@string/nra_feature_title_far</item>
+    </array>
+</resources>

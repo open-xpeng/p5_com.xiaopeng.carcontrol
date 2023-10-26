@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.xiaopeng.xui.widget.XEditText android:id="@+id/x_search_edit" app:vuiEnableViewVuiMode="true" app:vuiLabel="@string/vui_label_input" style="@style/XEdit.Search"/>
+    <RelativeLayout android:gravity="center" android:layout_width="@dimen/x_search_bar_edit_height" android:layout_height="@dimen/x_search_bar_edit_height" android:layout_alignParentEnd="true">
+        <com.xiaopeng.xui.widget.XImageButton android:id="@+id/x_search_reset" android:visibility="invisible" app:vuiEnableViewVuiMode="true" app:vuiLabel="@string/vui_label_reset" style="@style/XButton.Icon.Small.Close"/>
+    </RelativeLayout>
+    <ImageView android:id="@+id/x_search_status" android:background="@drawable/x_search_bar_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@+id/x_search_edit" android:layout_alignBottom="@+id/x_search_edit" android:layout_alignStart="@+id/x_search_edit" android:layout_alignEnd="@+id/x_search_edit"/>
+    <com.xiaopeng.xui.widget.XTextView android:id="@+id/x_search_error" android:visibility="gone" android:layout_below="@+id/x_search_edit" app:vuiMode="DISABLED" style="@style/XSearchBarError"/>
+</merge>

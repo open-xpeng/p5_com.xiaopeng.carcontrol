@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XImageButton xmlns:android="http://schemas.android.com/apk/res/android" android:layout_marginEnd="@dimen/x_title_bar_action_icon_margin" style="@style/XButton.Icon.Medium"/>

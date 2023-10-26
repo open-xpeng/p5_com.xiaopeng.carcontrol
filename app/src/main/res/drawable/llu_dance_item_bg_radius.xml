@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="16dp"/>
+    <stroke android:width="3dp" android:color="@color/llu_dance_list_item_selected_border"/>
+    <solid android:color="@color/llu_dance_recycler_item_selected"/>
+</shape>

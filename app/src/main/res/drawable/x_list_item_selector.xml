@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:state_pressed="true">
+        <shape>
+            <corners android:radius="@dimen/x_bg_list_radius"/>
+            <gradient android:startColor="@color/x_theme_bg_list_pressed_start" android:endColor="@color/x_theme_bg_list_pressed_end" android:angle="0" android:type="linear"/>
+            <stroke android:width="4dp" android:color="@color/x_theme_primary_normal"/>
+        </shape>
+    </item>
+    <item android:state_checked="true" android:state_pressed="true">
+        <shape>
+            <corners android:radius="@dimen/x_bg_list_radius"/>
+            <gradient android:startColor="@color/x_theme_bg_list_pressed_start" android:endColor="@color/x_theme_bg_list_pressed_end" android:angle="0" android:type="linear"/>
+            <stroke android:width="4dp" android:color="@color/x_theme_primary_normal"/>
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape>
+            <corners android:radius="@dimen/x_bg_list_radius"/>
+            <gradient android:startColor="@color/x_theme_bg_list_pressed_start" android:endColor="@color/x_theme_bg_list_pressed_end" android:angle="0" android:type="linear"/>
+        </shape>
+    </item>
+    <item android:state_selected="true">
+        <shape>
+            <corners android:radius="@dimen/x_bg_list_radius"/>
+            <gradient android:startColor="@color/x_theme_bg_list_focus_start" android:endColor="@color/x_theme_bg_list_focus_end" android:angle="0" android:type="linear"/>
+            <stroke android:width="4dp" android:color="@color/x_theme_primary_normal"/>
+        </shape>
+    </item>
+    <item android:state_checked="true">
+        <shape>
+            <corners android:radius="@dimen/x_bg_list_radius"/>
+            <gradient android:startColor="@color/x_theme_bg_list_focus_start" android:endColor="@color/x_theme_bg_list_focus_end" android:angle="0" android:type="linear"/>
+            <stroke android:width="4dp" android:color="@color/x_theme_primary_normal"/>
+        </shape>
+    </item>
+    <item android:state_enabled="false">
+        <shape>
+            <corners android:radius="@dimen/x_bg_list_radius"/>
+            <gradient android:startColor="@color/x_theme_bg_list_disable_start" android:endColor="@color/x_theme_bg_list_disable_end" android:angle="0" android:type="linear"/>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <corners android:radius="@dimen/x_bg_list_radius"/>
+            <gradient android:startColor="@color/x_theme_bg_list_normal_start" android:endColor="@color/x_theme_bg_list_normal_end" android:angle="0" android:type="linear"/>
+        </shape>
+    </item>
+</selector>

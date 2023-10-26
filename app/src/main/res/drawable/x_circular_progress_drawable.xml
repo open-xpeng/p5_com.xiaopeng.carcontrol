@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@android:id/background">
+        <drawable class="com.xiaopeng.xui.drawable.progress.XCircularProgressBgDrawable"/>
+    </item>
+    <item android:id="@android:id/secondaryProgress">
+        <drawable class="com.xiaopeng.xui.drawable.progress.XCircularProgressPgDrawable"/>
+    </item>
+    <item android:id="@android:id/progress">
+        <drawable class="com.xiaopeng.xui.drawable.progress.XCircularProgressPgDrawable"/>
+    </item>
+</layer-list>

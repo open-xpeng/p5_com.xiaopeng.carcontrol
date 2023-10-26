@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XImageView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/trailer_hook_item_info" android:layout_width="68dp" android:layout_height="68dp" android:src="@drawable/ic_small_information" android:scaleType="centerInside"/>

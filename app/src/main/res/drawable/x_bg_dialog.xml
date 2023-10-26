@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android" android:insetTop="@dimen/x_bg_dialog_inset" android:insetBottom="@dimen/x_bg_dialog_inset">
+    <shape>
+        <corners android:radius="@dimen/x_bg_dialog_radius"/>
+        <solid android:color="@color/x_theme_bg_dialog_color"/>
+    </shape>
+</inset>

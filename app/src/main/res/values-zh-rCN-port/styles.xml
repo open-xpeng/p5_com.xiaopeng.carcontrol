@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="XButton.Flat.Large" parent="@style/XButton.Flat">
+        <item name="android:textSize">@dimen/x_font_body_02_size</item>
+        <item name="android:paddingLeft">@dimen/x_btn_padding_horizontal_large</item>
+        <item name="android:paddingRight">@dimen/x_btn_padding_horizontal_large</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/x_btn_flat_large_height</item>
+        <item name="android:minWidth">@dimen/x_btn_flat_large_width</item>
+    </style>
+    <style name="XButton.Real.Mid" parent="@style/XButton.Real">
+        <item name="android:textSize">@dimen/x_font_title_03_size</item>
+        <item name="android:paddingLeft">@dimen/x_btn_padding_horizontal_mid</item>
+        <item name="android:paddingRight">@dimen/x_btn_padding_horizontal_mid</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/x_btn_real_height</item>
+        <item name="android:minWidth">@dimen/x_btn_real_width</item>
+    </style>
+    <style name="XToastLayoutStyle" parent="@style/XToastLayoutStyleBase">
+    </style>
+    <style name="XToastTextStyle" parent="@style/XToastTextStyleBase">
+    </style>
+</resources>

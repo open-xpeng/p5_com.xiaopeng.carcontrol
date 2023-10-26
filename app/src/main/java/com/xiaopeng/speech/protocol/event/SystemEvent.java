@@ -1,0 +1,54 @@
+package com.xiaopeng.speech.protocol.event;
+
+/* loaded from: classes2.dex */
+public class SystemEvent {
+    public static final String BLUETOOTH_OFF = "command://system.bluetooth.off";
+    public static final String BLUETOOTH_ON = "command://system.bluetooth.on";
+    public static final String BRIGHTNESS_DOWN_PERCENT = "command://system.screen.brightness.down.percent";
+    public static final String BRIGHTNESS_SET_PERCENT = "command://system.screen.brightness.set.percent";
+    public static final String BRIGHTNESS_UP_PERCENT = "command://system.screen.brightness.up.percent";
+    public static final String HEADREST_MODE_SET = "command://system.headrest.model.set";
+    public static final String ICM_BRIGHTNESS_DOWN = "command://system.icm.brightness.down";
+    public static final String ICM_BRIGHTNESS_DOWN_PERCENT = "command://system.icm.brightness.down.percent";
+    public static final String ICM_BRIGHTNESS_MAX = "command://system.icm.brightness.max";
+    public static final String ICM_BRIGHTNESS_MIN = "command://system.icm.brightness.min";
+    public static final String ICM_BRIGHTNESS_SET = "command://system.icm.brightness.set";
+    public static final String ICM_BRIGHTNESS_SET_PERCENT = "command://system.icm.brightness.set.percent";
+    public static final String ICM_BRIGHTNESS_UP = "command://system.icm.brightness.up";
+    public static final String ICM_BRIGHTNESS_UP_PERCENT = "command://system.icm.brightness.up.percent";
+    public static final String SCREEN_BRIGHTNESS_AUTO_OFF = "command://system.screen.brightness.auto.off";
+    public static final String SCREEN_BRIGHTNESS_AUTO_ON = "command://system.screen.brightness.auto.on";
+    public static final String SCREEN_BRIGHTNESS_DOWN = "command://system.screen.brightness.down";
+    public static final String SCREEN_BRIGHTNESS_MAX = "command://system.screen.brightness.max";
+    public static final String SCREEN_BRIGHTNESS_MIN = "command://system.screen.brightness.min";
+    public static final String SCREEN_BRIGHTNESS_SET = "command://system.screen.brightness.set";
+    public static final String SCREEN_BRIGHTNESS_STOP = "command://system.screen.brightness.stop";
+    public static final String SCREEN_BRIGHTNESS_UP = "command://system.screen.brightness.up";
+    public static final String SCREEN_MODE_CLEAN = "command://system.screen.mode.clean";
+    public static final String SCREEN_OFF = "command://system.screen.off";
+    public static final String SCREEN_ON = "command://system.screen.on";
+    public static final String SETTING_PAGE_OPEN = "command://bluetooth.setting.open";
+    public static final String SOUND_EFFECT_DIRECTION_SET = "command://system.music.sound.direction.set";
+    public static final String SOUND_EFFECT_MODE_SET = "command://system.music.sound.effect.model.set";
+    public static final String SOUND_EFFECT_SCENE_SET = "command://system.sound.scene.set";
+    public static final String SOUND_EFFECT_STYlE_SET = "command://system.music.sound.effect.style.set";
+    public static final String THEME_MODE_AUTO = "command://system.theme.mode.auto";
+    public static final String THEME_MODE_DAY = "command://system.theme.mode.day";
+    public static final String THEME_MODE_NIGHT = "command://system.theme.mode.night";
+    public static final String VOLUME_DOWN = "command://system.volume.down";
+    public static final String VOLUME_MAX = "command://system.volume.max";
+    public static final String VOLUME_MIN = "command://system.volume.min";
+    public static final String VOLUME_MUTE = "command://system.volume.mute";
+    public static final String VOLUME_NOTIFICATION_DOWN = "command://control.volume.notification.down";
+    public static final String VOLUME_NOTIFICATION_MAX = "command://control.volume.notification.max";
+    public static final String VOLUME_NOTIFICATION_MEDIUM = "command://control.volume.notification.medium";
+    public static final String VOLUME_NOTIFICATION_MIN = "command://control.volume.notification.min";
+    public static final String VOLUME_NOTIFICATION_UP = "command://control.volume.notification.up";
+    public static final String VOLUME_RESUME = "command://system.volume.resume";
+    public static final String VOLUME_SET = "command://system.volume.set";
+    public static final String VOLUME_UNMUTE = "command://system.volume.unmute";
+    public static final String VOLUME_UP = "command://system.volume.up";
+    public static final String WIFI_OFF = "command://system.wifi.off";
+    public static final String WIFI_ON = "command://system.wifi.on";
+    public static final String WIFI_SETTING_OPEN = "command://system.wifi.setting.open";
+}

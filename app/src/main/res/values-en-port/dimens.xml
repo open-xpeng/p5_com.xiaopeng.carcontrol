@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dialog_xpilot_video_content_width">495dp</dimen>
+    <dimen name="dialog_xpilot_video_height">1270dp</dimen>
+    <dimen name="dialog_xpilot_video_view_height">880dp</dimen>
+    <dimen name="dialog_xpilot_video_view_width">900dp</dimen>
+    <dimen name="tv_x_pilot_tab_desc_text_size">@dimen/x_font_body_04_size</dimen>
+    <dimen name="tv_x_pilot_tab_title_text_size">30dp</dimen>
+    <dimen name="x_pilot_header_height">58dp</dimen>
+    <dimen name="xpilot_info_dialog_pic_width">752dp</dimen>
+</resources>

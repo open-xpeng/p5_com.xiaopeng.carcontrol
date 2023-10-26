@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+        <shape>
+            <corners android:radius="14dp"/>
+            <gradient android:startColor="@color/x_theme_bg_list_focus_start" android:endColor="@color/x_theme_bg_list_focus_end" android:angle="0" android:type="linear"/>
+            <stroke android:width="@dimen/space_sleep_music_dialog_icon_padding" android:color="@color/x_theme_primary_normal"/>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <corners android:radius="12dp"/>
+            <gradient android:startColor="@color/x_theme_bg_list_normal_start" android:endColor="@color/x_theme_bg_list_normal_end" android:angle="0" android:type="linear"/>
+        </shape>
+    </item>
+</selector>

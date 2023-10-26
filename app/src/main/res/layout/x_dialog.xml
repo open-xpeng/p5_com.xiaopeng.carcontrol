@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/x_dialog_title"/>
+    <FrameLayout android:id="@+id/x_dialog_content" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" style="?attr/dialog_content_style"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/x_dialog_has_buttons" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/x_dialog_button_height">
+        <com.xiaopeng.xui.widget.XButton android:id="@+id/x_dialog_button1" android:visibility="gone" app:vuiDisableHitEffect="true" app:vuiEnableViewVuiMode="true" style="@style/XButton.Dialog.Positive"/>
+        <com.xiaopeng.xui.widget.XButton android:id="@+id/x_dialog_button2" android:visibility="gone" app:vuiDisableHitEffect="true" app:vuiEnableViewVuiMode="true" style="@style/XButton.Dialog.Negative"/>
+    </LinearLayout>
+</merge>

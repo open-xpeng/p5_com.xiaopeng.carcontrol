@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme>
+    <view id="layout_top" attr="background" value="@drawable/bg_normal_top"/>
+    <view id="layout_bottom" attr="background" value="@drawable/bg_normal_bottom"/>
+    <view id="fan_speed_seek_bar" attr="themeChanged" value="@color/colorPrimary"/>
+    <view id="temp_picker_drv" attr="normalTextColor" value="@color/x_theme_text_04"/>
+    <view id="temp_picker_drv" attr="selectedTextColor" value="@color/value_picker_selected_color"/>
+    <view id="temp_picker_psn" attr="normalTextColor" value="@color/x_theme_text_04"/>
+    <view id="temp_picker_psn" attr="selectedTextColor" value="@color/value_picker_selected_color"/>
+</theme>

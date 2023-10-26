@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="x_picker_select_text_size">@dimen/x_font_display_03_size</dimen>
+    <dimen name="x_segement_text_size">@dimen/x_font_title_03_size</dimen>
+    <dimen name="x_tab_layout_text_size">@dimen/x_font_title_03_size</dimen>
+    <dimen name="x_tabs_bar_tab_item_text_size">@dimen/x_font_title_03_size</dimen>
+    <dimen name="x_toast_height">100dp</dimen>
+</resources>

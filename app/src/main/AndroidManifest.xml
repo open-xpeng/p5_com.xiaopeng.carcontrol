@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="android.uid.system" android:versionCode="1050005" android:versionName="V1.5.0_20230529224629_Release" android:compileSdkVersion="28" android:compileSdkVersionCodename="9" coreApp="true" package="com.xiaopeng.carcontrol" platformBuildVersionCode="28" platformBuildVersionName="9">
+    <uses-sdk android:minSdkVersion="28" android:targetSdkVersion="28"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.car.permission.STORAGE_MONITORING"/>
+    <permission android:name="com.xiaopeng.carcontrol.permission.CAR_CONTROL" android:protectionLevel="signatureOrSystem"/>
+    <uses-permission android:name="android.car.permission.CAR_MILEAGE"/>
+    <uses-permission android:name="android.car.permission.CAR_ENERGY"/>
+    <uses-permission android:name="android.car.permission.CAR_IDENTIFICATION"/>
+    <uses-permission android:name="android.car.permission.CAR_SPEED"/>
+    <uses-permission android:name="android.car.permission.CAR_DYNAMICS_STATE"/>
+    <uses-permission android:name="android.car.permission.CAR_ENERGY_PORTS"/>
+    <uses-permission android:name="android.car.permission.CAR_EXTERIOR_LIGHTS"/>
+    <uses-permission android:name="android.car.permission.CONTROL_CAR_EXTERIOR_LIGHTS"/>
+    <uses-permission android:name="android.car.permission.CAR_POWERTRAIN"/>
+    <uses-permission android:name="android.car.permission.CAR_CONTROL_AUDIO_VOLUME"/>
+    <uses-permission android:name="android.car.permission.CAR_CONTROL_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.car.permission.CAR_NAVIGATION_MANAGER"/>
+    <uses-permission android:name="android.car.permission.CAR_INSTRUMENT_CLUSTER_CONTROL"/>
+    <uses-permission android:name="android.car.permission.CAR_DISPLAY_IN_CLUSTER"/>
+    <uses-permission android:name="android.car.permission.CAR_INFO"/>
+    <uses-permission android:name="android.car.permission.CAR_EXTERIOR_ENVIRONMENT"/>
+    <uses-permission android:name="android.car.permission.CAR_VENDOR_EXTENSION"/>
+    <uses-permission android:name="android.car.permission.CONTROL_APP_BLOCKING"/>
+    <uses-permission android:name="android.car.permission.ADJUST_CAR_CABIN"/>
+    <uses-permission android:name="android.car.permission.CAR_ENGINE_DETAILED"/>
+    <uses-permission android:name="android.car.permission.CAR_TIRES"/>
+    <uses-permission android:name="android.car.permission.CONTROL_CAR_DOORS"/>
+    <uses-permission android:name="android.car.permission.CONTROL_CAR_WINDOWS"/>
+    <uses-permission android:name="android.car.permission.CONTROL_CAR_SEATS"/>
+    <uses-permission android:name="android.car.permission.CONTROL_CAR_MIRRORS"/>
+    <uses-permission android:name="android.car.permission.CONTROL_CAR_CLIMATE"/>
+    <uses-permission android:name="android.car.permission.CAR_POWER"/>
+    <uses-permission android:name="android.car.permission.CAR_PROJECTION"/>
+    <uses-permission android:name="android.car.permission.CAR_MOCK_VEHICLE_HAL"/>
+    <uses-permission android:name="android.car.permission.CAR_TEST_SERVICE"/>
+    <uses-permission android:name="android.car.permission.CAR_DRIVING_STATE"/>
+    <uses-permission android:name="android.car.permission.VMS_PUBLISHER"/>
+    <uses-permission android:name="android.car.permission.VMS_SUBSCRIBER"/>
+    <uses-permission android:name="android.car.permission.CAR_DIAGNOSTICS"/>
+    <uses-permission android:name="android.car.permission.CLEAR_CAR_DIAGNOSTICS"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.READ_PROFILE"/>
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"/>
+    <uses-permission android:name="com.xiaopeng.caraccount.permission.SYNC"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <permission android:name="com.xiaopeng.carcontrol.permission.BIND_SERVICE" android:protectionLevel="signatureOrSystem"/>
+    <uses-permission android:name="com.xiaopeng.permission.IPC"/>
+    <uses-permission android:name="com.xiaopeng.permission.SERVICE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="com.xiaopeng.permission.DATA_SERVICE"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="com.xiaopeng.vuisceneprovider.scene.read"/>
+    <uses-permission android:name="com.xiaopeng.vuisceneprovider.scene.write"/>
+    <uses-permission android:name="xiaopeng.permission.DATA_SERVICE"/>
+    <uses-permission android:name="com.xiaopeng.permission.BROADCAST"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="com.xiaopeng.permission.SYSTEM_DELEGATE"/>
+    <uses-permission android:name="android.permission.REORDER_TASKS"/>
+    <application android:theme="@style/AppTheme" android:label="@string/app_name" android:icon="@mipmap/ic_launcher" android:name="com.xiaopeng.carcontrol.MainApp" android:persistent="true" android:debuggable="true" android:allowBackup="false" android:hardwareAccelerated="true" android:supportsRtl="true" android:extractNativeLibs="true" android:usesCleartextTraffic="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory">
+        <activity android:theme="@style/D21AppTheme" android:name="com.xiaopeng.carcontrol.view.MainActivity" android:launchMode="singleTask" android:configChanges="fontScale|navigation|keyboardHidden|keyboard">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="com.xiaopeng.carcontrol.intent.action.SHOW_CAR_CONTROL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <data android:scheme="xiaopeng" android:host="carcontrol"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.xiaopeng.metadata.activity.flags" android:value="@integer/xpanel_activity_flag"/>
+        </activity>
+        <activity android:theme="@style/AppTheme" android:name="com.xiaopeng.carcontrol.view.HvacActivity" android:taskAffinity="com.xiaopeng.carcontrol.hvac" android:launchMode="singleTop" android:configChanges="fontScale|navigation|keyboardHidden|keyboard">
+            <intent-filter>
+                <action android:name="com.xiaopeng.carcontrol.intent.action.SHOW_HVAC_PANEL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.xiaopeng.metadata.activity.flags" android:value="@integer/xpanel_activity_flag"/>
+            <intent-filter>
+                <data android:scheme="xiaopeng" android:host="carcontrol" android:path="/ac"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="uri" android:value="xiaopeng://carcontrol/ac"/>
+        </activity>
+        <activity android:theme="@style/XFullScreenTheme" android:name="com.xiaopeng.spacecapsule.view.VipSeatActivity" android:launchMode="singleInstance" android:screenOrientation="portrait" android:configChanges="fontScale|navigation|keyboardHidden|keyboard">
+            <intent-filter>
+                <action android:name="com.xiaopeng.carcontrol.intent.action.SHOW_VIP_SEAT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.xiaopeng.metadata.activity.flags" android:value="64"/>
+        </activity>
+        <activity android:theme="@style/XFullScreenTheme" android:name="com.xiaopeng.carcontrol.view.SpaceCapsuleActivity" android:launchMode="singleInstance" android:screenOrientation="portrait" android:configChanges="fontScale|navigation|keyboardHidden|keyboard">
+            <intent-filter>
+                <action android:name="com.xiaopeng.carcontrol.intent.action.SHOW_SPACE_CAPSULE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.xiaopeng.metadata.activity.flags" android:value="64"/>
+        </activity>
+        <activity android:theme="@style/AppTheme.Night" android:name="com.xiaopeng.carcontrol.view.SpaceCapsuleUseGuideActivity" android:launchMode="singleInstance" android:configChanges="fontScale|navigation|keyboardHidden|keyboard">
+            <intent-filter>
+                <action android:name="com.xiaopeng.carcontrol.intent.action.SHOW_SPACE_CAPSULE_USE_GUIDE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.xiaopeng.metadata.activity.flags" android:value="256"/>
+        </activity>
+        <activity android:theme="@style/XFullScreenTheme" android:name="com.xiaopeng.carcontrol.view.SleepCapsuleChooseActivity" android:launchMode="singleInstance" android:screenOrientation="portrait" android:configChanges="fontScale|navigation|keyboardHidden|keyboard">
+            <intent-filter>
+                <action android:name="com.xiaopeng.carcontrol.intent.action.SHOW_SLEEP_CAPSULE_CHOOSE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.xiaopeng.metadata.activity.flags" android:value="64"/>
+        </activity>
+        <activity android:theme="@style/MeditationTheme" android:name="com.xiaopeng.xpmeditation.view.MeditationActivity" android:launchMode="singleInstance" android:configChanges="fontScale|navigation|keyboardHidden|keyboard" android:windowSoftInputMode="adjustNothing">
+            <meta-data android:name="com.xiaopeng.metadata.activity.flags" android:value="64"/>
+            <meta-data android:name="com.xiaopeng.metadata.activity.level" android:value="1"/>
+            <intent-filter>
+                <action android:name="com.xiaopeng.carcontrol.intent.action.SHOW_MEDITATION"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <service android:name="com.xiaopeng.carcontrol.debug.XpDemoService" android:exported="false"/>
+        <service android:name="com.xiaopeng.carcontrol.CapsuleDialogService" android:exported="false"/>
+        <service android:name="com.xiaopeng.carcontrol.IpcModuleService" android:exported="false"/>
+        <provider android:name="com.xiaopeng.carcontrol.provider.CarControlProvider" android:permission="com.xiaopeng.carcontrol.permission.CAR_CONTROL" android:exported="true" android:authorities="com.xiaopeng.carcontrol"/>
+        <provider android:name="com.xiaopeng.lib.apirouter.server.ApiPublisherProvider" android:exported="true" android:authorities="com.xiaopeng.carcontrol.api.publisher"/>
+        <receiver android:name="com.xiaopeng.carcontrol.AppBroadcastReceiver">
+            <intent-filter android:priority="1200">
+                <action android:name="android.intent.action.PRE_BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.xiaopeng.broadcast.GREET_TTS_COMPLETE"/>
+                <action android:name="com.xiaopeng.broadcast.GREET_QUIT"/>
+                <action android:name="com.xiaopeng.carcontrol.intent.action.ACTION_AIR_PROTECT"/>
+                <action android:name="com.xiaopeng.carcontrol.intent.action.ACTION_LOW_BATTERY_PROTECT"/>
+                <action android:name="com.xiaopeng.intent.action.xkey.user"/>
+                <action android:name="com.xiaopeng.intent.action.xkey"/>
+                <action android:name="com.xiaopeng.intent.action.bosskey.user"/>
+                <action android:name="com.xiaopeng.intent.action.bosskey"/>
+                <action android:name="com.xiaopeng.carcontrol.intent.action.ACTION_CONTROL_WINDOW_VENT"/>
+                <action android:name="com.xiaopeng.xui.userscenario"/>
+                <action android:name="com.xiaopeng.carcontrol.intent.action.ACTION_SHOW_MICROPHONE_MUTE_DIALOG"/>
+                <action android:name="com.xiaopeng.carcontrol.intent.action.ACTION_SHOW_MICROPHONE_UNMUTE_DIALOG"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.xiaopeng.broadcast.GREET_TTS_COMPLETE"/>
+                <action android:name="com.xiaopeng.broadcast.GREET_QUIT"/>
+                <action android:name="com.xiaopeng.carcontrol.intent.action.ACTION_AIR_PROTECT"/>
+                <action android:name="com.xiaopeng.carcontrol.intent.action.ACTION_LOW_BATTERY_PROTECT"/>
+                <action android:name="com.xiaopeng.intent.action.xkey.user"/>
+                <action android:name="com.xiaopeng.intent.action.xkey"/>
+                <action android:name="com.xiaopeng.carcontrol.intent.action.ACTION_CONTROL_WINDOW_VENT"/>
+                <action android:name="com.xiaopeng.xui.userscenario"/>
+                <action android:name="com.xiaopeng.carcontrol.intent.action.ACTION_SHOW_MICROPHONE_MUTE_DIALOG"/>
+                <action android:name="com.xiaopeng.carcontrol.intent.action.ACTION_SHOW_MICROPHONE_UNMUTE_DIALOG"/>
+                <action android:name="com.xiaopeng.action.SMART_VEHICLE"/>
+                <action android:name="com.xiaopeng.carcontrol.intent.action.SHOW_SEAT_HEAT_DIALOG"/>
+            </intent-filter>
+        </receiver>
+        <activity android:theme="@style/XAppThemeShortCorner" android:name="com.xiaopeng.lludancemanager.view.LluDanceActivityNew" android:launchMode="singleInstance" android:screenOrientation="portrait" android:configChanges="fontScale|navigation|keyboardHidden|keyboard">
+            <meta-data android:name="com.xiaopeng.metadata.activity.flags" android:value="64"/>
+        </activity>
+        <service android:name="com.xiaopeng.carcontrol.CarControlService" android:permission="com.xiaopeng.carcontrol.permission.BIND_SERVICE" android:exported="true">
+            <intent-filter>
+                <action android:name="com.xiaopeng.xui.userscenario"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </service>
+        <meta-data android:name="SPEECH_OBSERVER" android:value="com.xiaopeng.carcontrol.CarControlSpeechObserver"/>
+        <meta-data android:name="SPEECH_EVENTS" android:value="command://control.light.home.off|             command://control.light.home.on|             command://control.light.low.off|             command://control.light.low.on|             command://control.light.position.on|             command://control.light.position.off|             command://control.light.auto.on|             command://control.light.auto.off|             command://control.light.height|             command://control.rear.mist.light.off|             command://control.rear.mist.light.on|             command://control.mirror.rear.close|             command://control.mirror.rear.on|             command://control.trunk.open|             command://control.window.driver.close|             command://control.window.driver.open|             command://control.window.passenger.close|             command://control.window.passenger.open|             command://control.windows.close|             command://control.windows.open|             command://control.trunk.close|             command://control.windows.ventilate.on|             command://control.windows.ventilate.off|             command://control.modes.driving.sport|             command://control.modes.driving.conservation|             command://control.modes.driving.normal|             command://control.modes.driving.racer|             command://control.modes.steering.soft|             command://control.modes.steering.normal|             command://control.modes.steering.sport|             command://control.energy.recycle.high|             command://control.energy.recycle.low|             command://control.energy.recycle.medium|             command://control.energy.recycle.up|             command://control.energy.recycle.down|             command://control.window.right.rear.open|             command://control.window.right.rear.close|             command://control.window.left.rear.open|             command://control.window.left.rear.close|             command://control.window.front.open|             command://control.window.front.close|             command://control.window.rear.open|             command://control.window.rear.close|             command://control.seat.move.up|             command://control.seat.move.down|             command://control.seat.move.highest|             command://control.seat.move.lowest|             command://control.seat.move.back|             command://control.seat.move.forward|             command://control.seat.move.rear|             command://control.seat.move.foremost|             command://control.seat.backrest.move.back|             command://control.seat.backrest.move.forward|             command://control.seat.backrest.move.rear|             command://control.seat.backrest.move.foremost|             command://control.seat.adjust|             command://control.light.resume|             command://control.seat.resume|             command://control.low.volume.on|             command://control.low.volume.off|             command://control.light.atmosphere.on|             command://control.light.atmosphere.off|             command://control.light.atmosphere.speaker.on|             command://control.light.atmosphere.speaker.off|             command://control.mirror.rear.set|             command://control.wiper.speed.up|             command://control.wiper.speed.down|             command://control.wiper.slow|             command://control.wiper.high|             command://control.wiper.medium|             command://control.wiper.superhigh|             command://control.trunk.unlock|             command://control.window.left.close|             command://control.window.left.open|             command://control.window.right.close|             command://control.window.right.open|             command://control.leg.up|             command://control.leg.down|             command://control.leg.highest|             command://control.leg.lowest|             command://control.seat.restore|             command://charge.direct.port.on|             command://charge.direct.port.off|             command://charge.alternating.port.off|             command://charge.alternating.port.on|             command://control.query.tire.pressure|             command://control.light.atmosphere.color|             command://control.light.atmosphere.double.color|             command://control.light.atmosphere.brightness.set|             command://control.light.atmosphere.brightness.up|             command://control.light.atmosphere.brightness.down|             command://control.light.atmosphere.brightness.max|             command://control.light.atmosphere.brightness.min|             command://control.psn.seat.move.up|             command://control.psn.seat.move.down|             command://control.psn.seat.backrest.move.back|             command://control.psn.seat.backrest.move.forward|             command://control.psn.seat.move.back|             command://control.psn.seat.move.forward|             command://control.xpedal.on|             command://control.xpedal.off|             command://control.xsport.close.mode|             command://control.scissor.left.door.on|             command://control.scissor.right.door.on|             command://control.scissor.left.door.off|             command://control.scissor.right.door.off|             command://control.scissor.left.door.pause|             command://control.scissor.right.door.pause|             command://control.sliding.door.set|             command://control.electric.curtain.open|             command://control.electric.curtain.close|             command://control.comfortable.driving.mode.open|             command://control.comfortable.driving.mode.close|             command://control.light.language.on|             command://control.light.language.off|             command://control.open.user.book|             command://control.close.user.book|             command://control.manual.search|             command://combo.mode.invisible|             command://combo.mode.invisible.off|             command://control.light.language.setting.on|             command://control.light.language.setting.off|             command://control.light.language.setting.preview|             command://control.light.language.setting.effect|             command://control.light.language.autoplay.on|             command://control.light.language.autoplay.off|             command://control.light.language.playtogether.on|             command://control.light.language.playtogether.off|             command://control.intelligent.high.light.on|             command://control.intelligent.high.light.off|             command://control.xkey.setting|             command://control.shortcutkey.setting|             command://control.welcome.mode.on|             command://control.welcome.mode.off|             command://control.welcome.mode.soundeffect.on|             command://control.welcome.mode.soundeffect.off|             command://control.welcome.mode.soundeffect.setting|             command://control.wireless.charging.on|             command://control.wireless.charging.off|             command://control.rearviewmirror.reverse.down.on.setting|             command://control.rearviewmirror.reverse.down.off.setting|             command://control.doorknob.auto.open.on|             command://control.doorknob.auto.open.off|             command://control.park.auto.unlock.on|             command://control.park.auto.unlock.off|             command://control.modes.driving.comfort|             command://control.modes.driving.crosscountry|             command://control.suspension.height|             command://control.suspension.save.position|             command://control.psn.seat.backrest.move.rear|             command://control.psn.seat.backrest.move.foremost|             command://control.waist.move|             command://control.leg.move|             command://control.leg.move.set|             command://control.cushion.move.set|             command://control.leg.movest|             command://control.psn.welcome.mode.on|             command://control.psn.welcome.mode.off|             command://control.child.safety.mode.on|             command://control.child.safety.mode.off|             command://control.child.safety.locks.on|             command://control.child.safety.locks.off|             command://control.psn.seat.move.highest|             command://control.psn.seat.move.lowest|             command://control.psn.seat.move.rear|             command://control.psn.seat.move.foremost|             command://control.suspension.auto.on|             command://control.suspension.auto.off|             command://control.massage.on|             command://control.massage.off|             command://control.massage.strength.set|             command://control.swing.on|             command://control.swing.off|             command://control.swing.strength.set|             command://control.back.welcome.mode.set|             command://control.suspension.welcome.mode.set|             command://control.new.key.parking.on|             command://control.new.key.parking.off|             command://control.new.key.parking.enhanced.off|             command://control.light.position.mode.set|             command://control.light.atmosphere.color.switch|             command://control.light.atmosphere.mode.set|             command://control.light.top.set|             command://control.light.top.brightness.set|             command://control.suspension.rigidity.set|             command://control.seat.lumber.control|             command://control.tail.on|             command://control.tail.off|             command://control.tail.auto.on|             command://control.tail.auto.off|             control.tail.status|             control.auto.tail.status|             meditation.copilot.state|             carcontrol.support.key.park|             control.apa.status|             control.vpa.status|             jarvis.dm.start|             jarvis.dm.end|             meditation.music.control.prev|             meditation.music.control.next|             meditation.music.control.pause|             meditation.music.control.resume|             command://enter.meditation.copilot|             command://exit.meditation.copilot|             carcontrol.support.close.mirror|             carcontrol.mirror.status|             carcontrol.get.open.trunk|             carcontrol.get.close.trunk|             carcontrol.get.window.status|             carcontrol.support.energy.recycle|             carcontrol.get.support.seat|             carcontrol.support.driving.mode|             control.support.light.atmosphere|             control.is.tairpressure.normal|             control.trunk.unlock.support|             charge.alternating.port.on.support|             charge.direct.port.off.support|             charge.alternating.port.off.support|             charge.direct.port.on.support|             control.mirror.rear.set.support|             control.leg.height.get|             charge.alternating.port.off.status|             charge.direct.port.off.status|             charge.alternating.port.on.status|             charge.direct.port.on.status|             control.light.height.support|             control.light.atmosphere.brightness.status|             control.light.atmosphere.color.status|             control.control.steering.mode.adjustable|             gui.page.open.carcontrol|             gui.page.open.state.carcontrol|             gui.page.close.carcontrol|             unity.page.support.carcontrol|             control.wiper.current.level|             carcontrol.get.psn.support.seat|             carcontrol.extra.trunk.status|             carcontrol.trunk.status|             carcontrol.set.speech.wakeup.status|             control.low.speed.analog.sound.support|             control.xpedal.support|             carcontrol.support.energy.recycle.reason|             control.scissor.door.left.open.support|             control.scissor.door.right.open.support|             control.scissor.door.left.close.support|             control.scissor.door.right.close.support|             control.scissor.door.left.running.support|             control.scissor.door.right.running.support|             control.sliding.door.support|             control.sliding.door.status|             control.electric.curtain.support|             control.get.windows.state.support|             control.comfortable.driving.mode.support|             control.lamp.signal.support|             xpu.ngp.status|             control.vip.chair.status|             control.capsule.mode|             control.dc.charge.support|             control.available.mileage|             control.light.language.setting.preview.support|             control.light.language.autoplay.state|             control.intelligent.high.light.support|             control.xkey.setting.support|             control.shortcut.key.setting.support|             control.welcome.mode.support|             control.welcome.mode.soundeffect.support|             control.welcome.mode.soundeffect.status|             control.wireless.charging.support|             control.rearview.mirror.reverse.down.support|             control.window.init.state|             control.rearview.doorknob.auto.open.support|             carcontrol.support.driving.comfort.mode|             carcontrol.support.driving.crosscountry.mode|             control.esp.fault.get|             control.suspension.support|             control.as.xpilot.mode.status|             control.as.transport.mode.status|             control.as.hoist.mode.status|             control.current.suspension.height|             control.waist.position.support|             control.leg.support|             control.leg.position.get|             control.psn.welcome.mode.support|             control.child.safety.mode.support|             control.child.safety.locks.status|             control.new.drive.mode|             control.driving.racer.support|             control.trailer.mode.status|             control.suspension.fix.status|             control.suspension.flat.status|             control.suspension.auto.support|             control.massage.support|             control.massage.current.status|             control.massage.running.mode|             control.massage.strength.current|             control.swing.support|             control.swing.current.status|             control.swing.running.mode|             control.swing.strength.current|             control.back.welcome.mode.support|             control.suspension.welcome.mode.support|             control.modes.driving.xsport|             control.light.atmosphere.mode.set.support|             control.light.atmosphere.color.support|             control.light.atmosphere.current.mode|             control.current.light.top.brightness|             control.current.light.top.status|             control.light.top.support|             control.first.time.light.geek|             control.xsport.support|             status.spacecapsule.submode|             control.suspension.rigidity.support|             control.show.mode.status|             command://ac.hvac.off|             command://ac.hvac.on|             command://ac.ac.on|             command://ac.ac.off|             command://ac.auto.on|             command://ac.auto.off|             command://ac.blow.foot.on|             command://ac.blow.head.foot.on|             command://ac.blow.head.on|             command://ac.defrost.demist.front.off|             command://ac.defrost.demist.front.on|             command://ac.defrost.demist.rear.off|             command://ac.defrost.demist.rear.on|             command://ac.demist.foot.on|             command://ac.inner.off|             command://ac.inner.on|             command://ac.wind.down|             command://ac.wind.up|             command://ac.wind.set|             command://ac.mirror.rear.heat.off|             command://ac.mirror.rear.heat.on|             command://ac.temp.down|             command://ac.temp.up|             command://ac.temp.set|             command://ac.purifier.open|             command://ac.purifier.close|             command://ac.temp.driver.up|             command://ac.temp.driver.down|             command://ac.temp.driver.set|             command://ac.temp.passenger.up|             command://ac.temp.passenger.down|             command://ac.temp.passenger.set|             command://ac.temp.dual.syn|             command://ac.temp.dual.off|             command://ac.wind.max|             command://ac.wind.min|             command://ac.temp.min|             command://ac.temp.max|             command://ac.temp.driver.min|             command://ac.temp.driver.max|             command://ac.temp.passenger.min|             command://ac.temp.passenger.max|             command://ac.seat.heating.open|             command://ac.seat.heating.close|             command://ac.seat.psn.heat.open|             command://ac.seat.psn.heat.close|             command://ac.seat.heating.max|             command://ac.seat.heating.min|             command://ac.seat.heating.up|             command://ac.seat.heating.down|             command://ac.seat.ventilate.on|             command://ac.seat.ventilate.off|             command://ac.seat.ventilate.max|             command://ac.seat.ventilate.min|             command://ac.seat.ventilate.down|             command://ac.seat.ventilate.up|             command://ac.seat.ventilate.driver.set|             command://ac.seat.heat.drive.set|             command://ac.seat.heat.passenger.set|             command://ac.seat.heat.passenger.up|             command://ac.seat.heat.passenger.down|             command://ac.psn.seat.ventilate.on|             command://ac.psn.seat.ventilate.off|             command://ac.psn.seat.ventilate.max|             command://ac.psn.seat.ventilate.min|             command://ac.psn.seat.ventilate.down|             command://ac.psn.seat.ventilate.up|             command://ac.psn.seat.ventilate.set|             command://ac.open.fast.fridge|             command://ac.open.fresh.air|             command://ac.exit.fast.fridge|             command://ac.exit.fresh.air|             command://ac.wind.direction.set|             command://ac.wind.unidirection|             command://ac.wind.evade|             command://ac.wind.front|             command://ac.wind.free|             command://ac.wind.auto.sweep.on|             command://ac.wind.auto.sweep.off|             command://ac.aqs.on|             command://ac.aqs.off|             command://ac.modes.eco.on|             command://ac.modes.eco.off|             command://ac.heating.on|             command://ac.heating.off|             command://ac.nature.on|             command://ac.nature.off|             command://ac.blow.window.on|             command://ac.temp.passenger.dual.syn|             command://ac.temp.passenger.dual.off|             command://card.ac.panel|             command://ac.intelligent.psn.on|             command://ac.intelligent.psn.off|             command://ac.wind.mirror.on|             command://ac.wind.mirror.off|             command://ac.wind.outlet.on|             command://ac.wind.outlet.off|             command://ac.left.rear.seat.heat.open|             command://ac.right.rear.seat.heat.open|             command://ac.left.rear.seat.heat.close|             command://ac.right.rear.seat.heat.close|             command://ac.left.rear.seat.heat.set|             command://ac.right.rear.seat.heat.set|             command://ac.left.rear.seat.heat.up|             command://ac.right.rear.seat.heat.up|             command://ac.left.rear.seat.heat.down|             command://ac.right.rear.seat.heat.down|             command://ac.blow.head.window.on|             command://ac.blow.head.window.foot.on|             command://ac.blow.head.window.off|             command://ac.steering.heating.on|             command://ac.steering.heating.off|             command://ac.steering.heating.max|             command://ac.steering.heating.min|             command://ac.steering.heating.down|             command://ac.steering.heating.up|             command://ac.steering.heating.set|             command://ac.fast.warming.on|             command://ac.fast.warming.off|             command://ac.intelligent.desiccation.on|             command://ac.intelligent.desiccation.off|             command://ac.wind.coordinate.open|             command://ac.wind.coordinate.close|             command://ac.wind.fresh.air.open|             command://ac.all.seat.ventilate.on|             command://ac.all.seat.ventilate.off|             command://ac.all.seat.heat.on|             command://ac.all.seat.heat.off|             command://back.ac.hvac.on|             command://back.ac.hvac.off|             command://back.ac.blow.head.on|             command://back.ac.blow.foot.on|             command://back.ac.blow.head.foot.on|             ac.support.auto.off|             ac.support.demist.foot|             ac.get.wind.max|             ac.get.wind.min|             ac.get.temp.max|             ac.get.temp.min|             ac.support.decimal.value|             ac.support.purifier|             ac.support.pm25|             ac.air.quality.level|             ac.support.seat.heat|             ac.support.psn.seat.heat|             ac.get.heat.max|             ac.get.heat.min|             ac.support.seat.blow|             ac.get.seat.blow.max|             ac.get.seat.blow.min|             ac.is.fast.fridge|             ac.is.fresh.air|             ac.support.temp.dual|             ac.wind.outlet.status|             ac.outside.air.status|             ac.wind.mode|             ac.mirror.rear.heat.status|             ac.outside.air.quality|             ac.dri.wind.direction.mode|             ac.psn.wind.direction.mode|             card.ac.panel.status|             ac.outside.air.quality.level|             ac.intelligent.passenger.status|             ac.support.rear.seat.heat|             ac.left.rear.seat.heat.lv|             ac.right.rear.seat.heat.lv|             ac.is.support.perfume|             ac.support.psn.seat.blow|             ac.get.psn.seat.blow.max|             ac.get.psn.seat.blow.min|             ac.psn.seat.blow.lv|             ac.support.steering.heating|             ac.get.steering.heating.max|             ac.get.steering.heating.min|             ac.get.steering.heating.lv|             ac.support.fast.warming|             ac.is.in.fast.warming|             ac.support.temp.dual.off|             ac.all.seat.heat.status|             ac.all.seat.ventilate.status|             ac.outside.temp|             back.ac.wind.outlet.status|             back.ac.wind.outlet.mode|             ac.support.intelligent.desiccation|             ac.is.in.intelligent.desiccation"/>
+        <service android:name="com.xiaopeng.carcontrol.CapsuleMusicService" android:exported="false"/>
+        <service android:name="com.xiaopeng.carcontrol.download.DownloadService" android:exported="false"/>
+        <service android:name="com.xiaopeng.lib.framework.ipcmodule.AgentService" android:permission="com.xiaopeng.permission.SERVICE" android:enabled="true" android:exported="true">
+            <intent-filter>
+                <action android:name="com.xiaopeng.ipc.AgentService"/>
+            </intent-filter>
+        </service>
+        <service android:name="org.eclipse.paho.android.service.MqttService"/>
+        <provider android:name="com.xiaopeng.lib.framework.netchannelmodule.common.ContextNetStatusProvider" android:exported="false" android:authorities="com.xiaopeng.carcontrol.netmodule.provider"/>
+        <service android:name="com.xiaopeng.smartcontrol.ipc.server.ipc.AidlService" android:exported="true">
+            <intent-filter>
+                <action android:name="com.xiaopeng.smartcontrol.BindAidlService"/>
+            </intent-filter>
+        </service>
+    </application>
+</manifest>

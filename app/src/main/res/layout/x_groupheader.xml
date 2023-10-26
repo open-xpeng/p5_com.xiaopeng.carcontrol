@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center_vertical" android:orientation="horizontal">
+    <com.xiaopeng.xui.widget.XTextView android:textColor="@color/x_theme_text_03" android:id="@+id/x_groupheader_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_marginEnd="16dp" app:vuiMode="DISABLED" app:x_dynamic_font_scale_change_enable="false"/>
+</merge>

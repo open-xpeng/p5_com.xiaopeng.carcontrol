@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.xiaopeng.xui.widget.XFrameLayout android:id="@+id/space_sleep_music_icon_layout" android:padding="@dimen/space_sleep_music_dialog_icon_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+        <com.xiaopeng.xui.widget.XImageView android:layout_gravity="center" android:id="@+id/space_sleep_music_image" android:layout_width="@dimen/space_sleep_music_dialog_icon" android:layout_height="@dimen/space_sleep_music_dialog_icon"/>
+        <View android:layout_gravity="center" android:id="@+id/space_sleep_music_playing" android:background="@drawable/ic_playing" android:visibility="gone" android:layout_width="25.5dp" android:layout_height="24dp"/>
+    </com.xiaopeng.xui.widget.XFrameLayout>
+    <com.xiaopeng.xui.widget.XTextView android:textSize="@dimen/x_font_body_02_size" android:textColor="@color/space_sleep_music_text_selector" android:id="@+id/space_sleep_music_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/space_sleep_music_classic1" android:layout_below="@+id/space_sleep_music_icon_layout" android:layout_centerHorizontal="true"/>
+</com.xiaopeng.xui.widget.XRelativeLayout>

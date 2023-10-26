@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XRecyclerView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/x_pilot_list" android:background="@android:color/transparent" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/scroll_page_margin" android:layout_marginBottom="@dimen/scroll_page_margin" android:fadeScrollbars="true" android:overScrollMode="never" android:layout_marginStart="32dp" android:layout_marginEnd="@dimen/page_margin_end"/>

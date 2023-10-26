@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="8dp" android:width="20dp" android:viewportWidth="20" android:viewportHeight="8">
+    <path android:fillColor="@color/seat_pos_tab_arror" android:pathData="M10,0l10,8l-20,0z" android:strokeColor="#00000000" android:strokeWidth="1" android:strokeAlpha="0.36" android:fillAlpha="0.36" android:fillType="evenOdd"/>
+</vector>

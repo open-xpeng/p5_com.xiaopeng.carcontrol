@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item>
+        <drawable app:rippleRadius="32dp" class="com.xiaopeng.xui.drawable.ripple.XRippleDrawable"/>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <stroke android:width="3dp" android:color="@color/save_seat_btn_ring"/>
+            <corners android:radius="32dp"/>
+        </shape>
+    </item>
+</layer-list>

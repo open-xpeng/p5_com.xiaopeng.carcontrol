@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XTextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:textSize="@dimen/xpilot_category_font_size" android:textColor="@color/x_theme_text_01" android:id="@+id/tv_x_pilot_cate" android:layout_width="wrap_content" android:layout_height="56dp" app:vuiMode="DISABLED" style="@style/item_x_pilot_cate_style"/>

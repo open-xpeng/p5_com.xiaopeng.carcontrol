@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiaopeng.xui.widget.XButton xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/x_groupheader_action_button" android:saveEnabled="false" style="@style/XButton.Ghost.Small.Positive"/>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center_vertical" android:orientation="horizontal">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/x_titlebar_btn_close_lay" android:layout_width="300dp" android:layout_height="match_parent">
+        <com.xiaopeng.xui.widget.XImageButton android:id="@+id/x_titlebar_btn_close" android:layout_marginStart="@dimen/x_title_bar_close_margin_start" android:layout_marginEnd="@dimen/x_title_bar_close_margin_end" app:vuiDisableHitEffect="true" app:vuiEnableViewVuiMode="true" app:vuiLabel="@string/vui_label_close_activity" style="@style/XButton.Icon.Large.Close"/>
+        <com.xiaopeng.xui.widget.XImageButton android:id="@+id/x_titlebar_btn_back" android:visibility="gone" app:vuiDisableHitEffect="true" app:vuiEnableViewVuiMode="true" app:vuiLabel="@string/vui_label_activity_back" style="@style/XButton.Icon.Large.Back"/>
+    </LinearLayout>
+    <com.xiaopeng.xui.widget.XTextView android:textSize="@dimen/x_font_title_01_size" android:textColor="@color/x_theme_text_01" android:gravity="center" android:id="@+id/x_titlebar_tv_title" android:layout_width="0dp" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1" app:vuiMode="DISABLED"/>
+    <FrameLayout android:layout_width="300dp" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="end|center_vertical" android:orientation="horizontal" android:id="@+id/x_titlebar_right_container" android:paddingRight="14dp" android:layout_width="300dp" android:layout_height="wrap_content"/>
+    </FrameLayout>
+</merge>

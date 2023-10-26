@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.xiaopeng.xui.widget.XLinearLayout android:background="@drawable/x_list_item_selector" android:paddingTop="26dp" android:layout_width="match_parent" android:layout_height="@dimen/llu_double_confirm_dialog_auto_option_height" android:paddingStart="39dp">
+        <com.xiaopeng.xui.widget.XSwitch android:textSize="35sp" android:textColor="#ff757d8d" android:gravity="center_vertical" android:id="@+id/llu_double_confirm_dialog_auto_volume" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/llu_dance_double_confirm_dialog_auto_volume_text" android:paddingStart="32dp"/>
+    </com.xiaopeng.xui.widget.XLinearLayout>
+    <com.xiaopeng.xui.widget.XLinearLayout android:background="@drawable/x_list_item_selector" android:paddingTop="26dp" android:layout_width="match_parent" android:layout_height="@dimen/llu_double_confirm_dialog_auto_option_height" android:layout_marginTop="32dp" android:paddingStart="39dp">
+        <com.xiaopeng.xui.widget.XSwitch android:textSize="35sp" android:textColor="#ff757d8d" android:gravity="center_vertical" android:id="@+id/llu_double_confirm_dialog_auto_window" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/llu_dance_double_confirm_dialog_auto_window_text" android:paddingStart="32dp"/>
+    </com.xiaopeng.xui.widget.XLinearLayout>
+</LinearLayout>

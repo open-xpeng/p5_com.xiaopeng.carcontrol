@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.xiaopeng.xui.widget.XLinearLayout android:gravity="center_vertical" android:layout_gravity="top|center_horizontal" android:orientation="horizontal" android:background="@drawable/x_bg_toast" android:layout_width="wrap_content" android:layout_height="@dimen/x_loading_dialog_height" android:paddingStart="@dimen/x_loading_dialog_padding" android:paddingEnd="@dimen/x_loading_dialog_padding">
+        <com.xiaopeng.xui.widget.XImageButton android:id="@+id/x_loading_dialog_close" android:layout_marginEnd="@dimen/x_loading_dialog_padding" style="@style/XButton.Icon.Small.Close"/>
+        <com.xiaopeng.xui.widget.XLoading android:id="@+id/x_loading_dialog_loading" style="@style/XLoading.Medium"/>
+        <com.xiaopeng.xui.widget.XTextView android:id="@+id/x_loading_dialog_text" android:text="@string/x_loading_dialog_message" style="@style/XLoadingDialogTextStyle"/>
+    </com.xiaopeng.xui.widget.XLinearLayout>
+</RelativeLayout>

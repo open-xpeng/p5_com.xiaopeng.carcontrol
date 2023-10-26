@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:height="102dp" android:width="352dp" android:viewportWidth="352" android:viewportHeight="102">
+    <path android:fillColor="@drawable/res_0x7f080015_llu_activity_dance_video_stop_button_background__0" android:pathData="M7.5,1.5L344.5,1.5A6,6 0,0 1,350.5 7.5L350.5,94.5A6,6 0,0 1,344.5 100.5L7.5,100.5A6,6 0,0 1,1.5 94.5L1.5,7.5A6,6 0,0 1,7.5 1.5z" android:strokeColor="@drawable/res_0x7f080016_llu_activity_dance_video_stop_button_background__1" android:strokeWidth="3" android:fillType="evenOdd"/>
+</vector>
